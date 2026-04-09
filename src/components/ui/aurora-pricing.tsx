@@ -91,7 +91,7 @@ const AuroraPricing = () => {
             transition: {
                 delay: i * 0.15 + 0.3,
                 duration: 0.6,
-                ease: "easeInOut",
+                ease: "easeInOut" as const,
             },
         }),
     };

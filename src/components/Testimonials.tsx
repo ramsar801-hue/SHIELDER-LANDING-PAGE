@@ -112,7 +112,7 @@ function StatNumber({ value, prefix = "", suffix = "" }: { value: number | strin
     requestAnimationFrame(animate);
   }, [value]);
 
-  const formatted = value >= 1000000 
+  const formatted = Number(value) >= 1000000 
     ? (displayValue / 1000000).toFixed(1) 
     : displayValue % 1 === 0 ? displayValue.toFixed(0) : displayValue.toFixed(1);
 
