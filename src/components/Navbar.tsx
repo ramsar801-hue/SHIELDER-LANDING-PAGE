@@ -6,36 +6,15 @@ import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [waitlistCount, setWaitlistCount] = useState(47);
+  const [waitlistCount] = useState(11);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
-
-    // Persistence for waitlist count
-    const savedCount = localStorage.getItem("shieldRouteWaitlist");
-    if (savedCount) {
-      setWaitlistCount(parseInt(savedCount));
-    } else {
-      localStorage.setItem("shieldRouteWaitlist", "47");
-    }
-
-    // Occasional decrement for FOMO
-    const interval = setInterval(() => {
-      setWaitlistCount((prev) => {
-        const next = Math.max(11, prev - (Math.random() > 0.8 ? 1 : 0));
-        localStorage.setItem("shieldRouteWaitlist", next.toString());
-        return next;
-      });
-    }, 15000);
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      clearInterval(interval);
-    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
@@ -55,7 +34,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex flex-col">
           <span className="text-xl font-bold tracking-tight text-white leading-none">
-            SHIELD<span className="text-accent">ROUTE</span>
+            Aegis<span className="text-accent">Route</span>
           </span>
           <span className="text-[10px] text-muted uppercase tracking-widest font-medium mt-1">
             Autonomous supply chain intelligence
@@ -81,9 +60,9 @@ export default function Navbar() {
             href="#waitlist"
             animate={{ scale: [1, 1.03, 1] }}
             transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
-            className="hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20"
+            className="hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20 touch-manipulation"
           >
-            Join waitlist — {waitlistCount} spots left
+            Join waitlist — 11 spots left
           </motion.a>
 
           {/* Mobile Menu Toggle */}
@@ -105,12 +84,12 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-background border-b border-white/10 overflow-hidden"
           >
-            <div className="flex flex-col p-6 space-y-4">
+            <div className="flex flex-col p-6 space-y-2">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-lg font-medium text-white"
+                  className="text-lg font-medium text-white py-4 px-2 block active:text-accent touch-manipulation"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.name}
@@ -118,10 +97,10 @@ export default function Navbar() {
               ))}
               <a
                 href="#waitlist"
-                className="bg-accent text-white px-6 py-3 rounded-xl text-center font-bold"
+                className="bg-accent text-white px-6 py-5 rounded-xl text-center font-bold mt-4 block touch-manipulation active:bg-accent/80"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Join waitlist — {waitlistCount} spots left
+                Join waitlist — 11 spots left
               </a>
             </div>
           </motion.div>

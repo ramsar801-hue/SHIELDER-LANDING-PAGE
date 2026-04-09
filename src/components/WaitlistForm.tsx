@@ -48,7 +48,7 @@ export default function WaitlistForm() {
   };
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("https://shieldroute.com/join?ref=founding-44");
+    navigator.clipboard.writeText("https://aegisroute.com/join?ref=founding-44");
     // Could add a "Copied!" toast here
   };
 
@@ -65,11 +65,11 @@ export default function WaitlistForm() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-center"
+              className="text-center mb-12"
             >
               <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter">
                 Your next disruption is already forming. <br className="hidden md:block" />
-                <span className="text-accent underline decoration-white/20">Join before it hits.</span>
+                <span className="text-accent underline decoration-white/20">AegisRoute stops the bleed.</span>
               </h2>
               <p className="text-muted text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
                 Only 50 founding companies get priority onboarding and the 14-day pilot with the $497 setup fee completely waived. 39 spots are gone. <span className="text-danger font-bold">11 remain.</span> This is not a soft deadline. After 50, the pilot program is full. Founding pricing is no longer available.

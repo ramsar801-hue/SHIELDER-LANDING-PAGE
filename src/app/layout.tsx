@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ShieldRoute | Autonomous Supply Chain Intelligence",
+  title: "AegisRoute | Autonomous Supply Chain Intelligence",
   description: "Secure your shipments with AI-driven autonomous logistics optimization. Detect disruptions 18 days earlier and automate rerouting.",
 };
 

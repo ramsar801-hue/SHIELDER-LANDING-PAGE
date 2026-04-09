@@ -165,7 +165,7 @@ const AuroraPricing = () => {
             </div>
 
             {/* Pricing Cards */}
-            <div className="flex overflow-x-auto snap-x snap-mandatory pb-8 md:pb-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full relative z-10 hide-scrollbar">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full relative z-10">
                 {plans.map((plan, index) => (
                     <motion.div
                         key={plan.name}
@@ -176,7 +176,7 @@ const AuroraPricing = () => {
                         viewport={{ once: true }}
                         whileHover={{ y: -10, scale: 1.01 }}
                         className={cn(
-                            "relative p-8 rounded-[40px] border border-white/10 overflow-hidden group flex flex-col transition-all duration-500 min-w-[85vw] md:min-w-0 snap-center shrink-0 md:shrink",
+                            "relative p-8 rounded-[40px] border border-white/10 overflow-hidden group flex flex-col transition-all duration-500",
                             plan.isFeatured ? 'bg-black/40 shadow-2xl shadow-accent/20 border-accent/40 ring-1 ring-accent/20' : 'bg-black/20 backdrop-blur-3xl'
                         )}
                     >

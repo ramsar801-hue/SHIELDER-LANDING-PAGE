@@ -8,7 +8,7 @@ const steps = [
   {
     id: 1,
     title: "WATCH",
-    desc: "ShieldRoute connects to your carriers, weather feeds, port data, and supplier signals. Every 60 seconds. Non-stop.",
+    desc: "AegisRoute connects to your carriers, weather feeds, port data, and supplier signals. Every 60 seconds. Non-stop.",
     icon: <Eye size={24} />,
     color: "from-blue-500/20 to-transparent",
     mockup: (
@@ -127,7 +127,7 @@ export default function HowItWorks() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
-            ShieldRoute works while you sleep.
+            AegisRoute works while you sleep.
           </h2>
         </div>
 

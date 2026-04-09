@@ -23,7 +23,7 @@ export default function Hero() {
               </h1>
               <p className="text-white/60 px-6 text-center text-sm md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
                 A typhoon is forming. A carrier just went dark. A supplier missed their last three shipments.
-                <span className="block mt-4 text-white">ShieldRoute sees it now. You see it now. Not in 8 hours when your phone rings.</span>
+                <span className="block mt-4 text-white">AegisRoute sees it now. You see it now. Not in 8 hours when your phone rings.</span>
               </p>
               
               <div className="flex justify-center flex-col sm:flex-row items-center gap-6 mb-10"> 

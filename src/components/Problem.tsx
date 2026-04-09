@@ -64,14 +64,14 @@ export default function Problem() {
         >
             <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter text-white">
                 Supply chains are fragile. <br />
-                <span className="text-danger italic underline decoration-white/10">ShieldRoute is your buffer.</span>
+                <span className="text-danger italic underline decoration-white/10">AegisRoute is your buffer.</span>
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-medium">
                 Logistics managers lose 15% of their day to crises they didn't see coming. We fix that.
             </p>
         </motion.div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory pb-8 md:pb-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 hide-scrollbar">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {cards.map((card, i) => (
             <motion.div
               key={i}
@@ -79,7 +79,7 @@ export default function Problem() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden min-w-[85vw] md:min-w-0 snap-center shrink-0 md:shrink"
+              className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden"
             >
               <div className="absolute top-0 left-0 w-1 h-full bg-danger opacity-20 group-hover:opacity-100 transition-opacity" />
               <div className="mb-6 bg-danger/10 w-fit p-3 rounded-2xl">{card.icon}</div>

@@ -16,7 +16,7 @@ export default function Footer() {
                 <Shield className="text-accent" size={20} />
               </div>
               <span className="text-2xl font-black tracking-tighter text-white leading-none">
-                SHIELD<span className="text-accent">ROUTE</span>
+                Aegis<span className="text-accent">Route</span>
               </span>
             </div>
             <span className="text-sm text-gray-400 font-medium">
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-[10px] font-black uppercase tracking-[0.3em] text-gray-600 gap-4">
-          <span>&copy; 2026 SHIELDROUTE. DESIGN IS EVERYTHING.</span>
+          <span>&copy; 2026 AEGISROUTE. DESIGN IS EVERYTHING.</span>
           <div className="flex items-center gap-4">
             <span className="text-accent/50">ENGINE_v4.2.0</span>
             <span>SOC2_READY</span>

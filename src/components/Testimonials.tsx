@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 const testimonials = [
   {
-    quote: "A carrier went dark on a Thursday night. ShieldRoute had us rerouted and the customer notified before I even saw the alert. That shipment had a $6,800 penalty clause. We paid nothing.",
     author: "James M.",
     role: "Head of Logistics",
     company: "Mid-size Manufacturer",
@@ -14,7 +13,7 @@ const testimonials = [
     initials: "JM"
   },
   {
-    quote: "We almost lost our biggest supplier without warning. ShieldRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.",
+    quote: "We almost lost our biggest supplier without warning. AegisRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.",
     author: "Sarah L.",
     role: "VP Operations",
     company: "Food Distributor",
@@ -22,7 +21,7 @@ const testimonials = [
     initials: "SL"
   },
   {
-    quote: "The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. ShieldRoute told us the same day. We renegotiated 4 of them.",
+    quote: "The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. AegisRoute told us the same day. We renegotiated 4 of them.",
     author: "Ahmed K.",
     role: "COO",
     company: "Pharmaceutical Importer",
@@ -47,12 +46,12 @@ export default function Testimonials() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
-            From operations teams in our pilot.
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
+            AegisRoute works while you sleep.
           </h2>
         </motion.div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory pb-8 md:pb-0 md:grid md:grid-cols-3 gap-8 mb-24 hide-scrollbar">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}
@@ -60,7 +59,7 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="p-8 bg-white/5 border border-white/5 rounded-3xl relative min-w-[85vw] md:min-w-0 snap-center shrink-0 md:shrink"
+              className="p-8 bg-white/5 border border-white/5 rounded-3xl relative"
             >
               <Quote className="absolute top-8 right-8 text-accent/20" size={40} />
               <p className="text-white/80 leading-relaxed mb-8 relative z-10">&quot;{t.quote}&quot;</p>
