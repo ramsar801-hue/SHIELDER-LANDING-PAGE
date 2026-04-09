@@ -4,7 +4,7 @@ import { Shield, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-950 pt-24 pb-32 border-t border-white/5 relative z-10 overflow-hidden">
+    <footer className="bg-gray-950 pt-12 pb-16 md:pt-24 md:pb-32 border-t border-white/5 relative z-10 overflow-hidden">
       {/* Aurora blur effect in footer */}
       <div className="absolute -bottom-24 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent/20 blur-[120px] rounded-full pointer-events-none" />
       

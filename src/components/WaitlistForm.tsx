@@ -53,7 +53,7 @@ export default function WaitlistForm() {
   };
 
   return (
-    <section id="waitlist" className="py-32 bg-background relative overflow-hidden border-t border-white/5">
+    <section id="waitlist" className="py-16 md:py-32 bg-background relative overflow-hidden border-t border-white/5">
       {/* Background Effect */}
       <div className="absolute inset-0 z-0 opacity-10" 
            style={{ backgroundImage: 'linear-gradient(to right, #333 1px, transparent 1px), linear-gradient(to bottom, #333 1px, transparent 1px)', backgroundSize: '80px 80px' }} />
@@ -82,7 +82,7 @@ export default function WaitlistForm() {
                     <input 
                       {...register("fullName", { required: true })}
                       placeholder="Alex Taylor"
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
                     />
                   </div>
                   <div className="space-y-2">
@@ -90,7 +90,7 @@ export default function WaitlistForm() {
                     <input 
                       {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
                       placeholder="alex@company.com"
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
                     />
                   </div>
                   <div className="space-y-2">
@@ -98,14 +98,14 @@ export default function WaitlistForm() {
                     <input 
                       {...register("companyName", { required: true })}
                       placeholder="ShipGlobal Inc."
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
                     />
                   </div>
                   <div className="space-y-2">
                     <label className="text-xs font-black uppercase tracking-widest text-muted">Role</label>
                     <select 
                       {...register("role", { required: true })}
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
                     >
                       <option value="">Select Role</option>
                       <option value="COO">COO</option>
@@ -122,7 +122,7 @@ export default function WaitlistForm() {
                   <label className="text-xs font-black uppercase tracking-widest text-muted">Monthly Shipment Volume</label>
                   <select 
                     {...register("volume", { required: true })}
-                    className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
+                    className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
                   >
                     <option value="">Select Volume</option>
                     <option value="Under 50">Under 50</option>
@@ -147,7 +147,7 @@ export default function WaitlistForm() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   disabled={isSubmitting}
-                  className="w-full bg-accent hover:bg-accent/90 text-white font-black py-5 rounded-2xl text-xl shadow-xl shadow-accent/20 transition-all flex items-center justify-center space-x-3 disabled:opacity-50"
+                  className="w-full bg-accent hover:bg-accent/90 text-white font-black py-6 md:py-5 rounded-2xl text-xl shadow-xl shadow-accent/20 transition-all flex items-center justify-center space-x-3 disabled:opacity-50"
                 >
                   {isSubmitting ? (
                     <motion.div 

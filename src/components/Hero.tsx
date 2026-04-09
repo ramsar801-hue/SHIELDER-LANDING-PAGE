@@ -7,12 +7,12 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[110vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[100vh] md:min-h-[110vh] flex items-center justify-center overflow-hidden">
       <WebGLShader className="fixed top-0 left-0 w-full h-full block -z-10 pointer-events-none" />
       
       <div className="relative z-10 w-full max-w-5xl mx-auto px-6 text-center">
         <div className="border border-white/10 p-2 rounded-3xl backdrop-blur-sm bg-black/20">
-          <main className="relative border border-white/10 py-20 rounded-2xl overflow-hidden bg-black/40 shadow-2xl">
+          <main className="relative border border-white/10 py-12 md:py-20 rounded-2xl overflow-hidden bg-black/40 shadow-2xl">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}

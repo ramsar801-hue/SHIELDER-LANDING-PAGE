@@ -165,7 +165,7 @@ const AuroraPricing = () => {
             </div>
 
             {/* Pricing Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full relative z-10">
+            <div className="flex overflow-x-auto snap-x snap-mandatory pb-8 md:pb-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full relative z-10 hide-scrollbar">
                 {plans.map((plan, index) => (
                     <motion.div
                         key={plan.name}
@@ -176,7 +176,7 @@ const AuroraPricing = () => {
                         viewport={{ once: true }}
                         whileHover={{ y: -10, scale: 1.01 }}
                         className={cn(
-                            "relative p-8 rounded-[40px] border border-white/10 overflow-hidden group flex flex-col transition-all duration-500",
+                            "relative p-8 rounded-[40px] border border-white/10 overflow-hidden group flex flex-col transition-all duration-500 min-w-[85vw] md:min-w-0 snap-center shrink-0 md:shrink",
                             plan.isFeatured ? 'bg-black/40 shadow-2xl shadow-accent/20 border-accent/40 ring-1 ring-accent/20' : 'bg-black/20 backdrop-blur-3xl'
                         )}
                     >
@@ -246,14 +246,14 @@ const AuroraPricing = () => {
                                 ))}
                             </ul>
 
-                            <button className={cn(
+                            <a href="#waitlist" className={cn(
                                 "w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn",
                                 plan.isFeatured 
                                     ? "bg-accent text-white hover:bg-white hover:text-black shadow-accent/20" 
                                     : "bg-white/5 text-gray-200 hover:bg-white/10 border border-white/10"
                             )}>
                                 <span>{plan.cta}</span>
-                            </button>
+                            </a>
                         </div>
                     </motion.div>
                 ))}

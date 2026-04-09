@@ -54,7 +54,7 @@ export default function Problem() {
   ];
 
   return (
-    <section id="problem" className="py-24 bg-black relative">
+    <section id="problem" className="py-12 md:py-24 bg-black relative">
       <div className="container mx-auto px-6">
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ export default function Problem() {
             </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex overflow-x-auto snap-x snap-mandatory pb-8 md:pb-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 hide-scrollbar">
           {cards.map((card, i) => (
             <motion.div
               key={i}
@@ -79,7 +79,7 @@ export default function Problem() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden"
+              className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden min-w-[85vw] md:min-w-0 snap-center shrink-0 md:shrink"
             >
               <div className="absolute top-0 left-0 w-1 h-full bg-danger opacity-20 group-hover:opacity-100 transition-opacity" />
               <div className="mb-6 bg-danger/10 w-fit p-3 rounded-2xl">{card.icon}</div>
@@ -104,7 +104,7 @@ export default function Problem() {
           <div className="text-gray-400 uppercase tracking-[0.3em] font-black text-[10px] mb-4">
             Estimated global logistics losses in the last 24 hours
           </div>
-          <div className="text-6xl md:text-8xl font-black text-danger tracking-tighter tabular-nums">
+          <div className="text-4xl md:text-6xl lg:text-8xl font-black text-danger tracking-tighter tabular-nums">
             ${lossCount.toLocaleString()}
           </div>
           <div className="mt-6 text-gray-500 font-bold uppercase tracking-widest text-xs">

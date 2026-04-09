@@ -39,7 +39,7 @@ const stats = [
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-background">
+    <section className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export default function Testimonials() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="flex overflow-x-auto snap-x snap-mandatory pb-8 md:pb-0 md:grid md:grid-cols-3 gap-8 mb-24 hide-scrollbar">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}
@@ -60,7 +60,7 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="p-8 bg-white/5 border border-white/5 rounded-3xl relative"
+              className="p-8 bg-white/5 border border-white/5 rounded-3xl relative min-w-[85vw] md:min-w-0 snap-center shrink-0 md:shrink"
             >
               <Quote className="absolute top-8 right-8 text-accent/20" size={40} />
               <p className="text-white/80 leading-relaxed mb-8 relative z-10">&quot;{t.quote}&quot;</p>

@@ -123,7 +123,7 @@ export default function HowItWorks() {
   }, [activeStep]);
 
   return (
-    <section id="how-it-works" className="py-24 bg-background overflow-hidden">
+    <section id="how-it-works" className="py-12 md:py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
