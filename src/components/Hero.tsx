@@ -7,16 +7,17 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[100vh] md:min-h-[110vh] flex items-center justify-center overflow-hidden">
-      <WebGLShader className="fixed top-0 left-0 w-full h-full block -z-10 pointer-events-none" />
+    <section className="relative min-h-[100vh] md:min-h-[110vh] flex items-center justify-center">
+      <WebGLShader className="fixed top-0 left-0 w-full h-full block -z-10 pointer-events-none gpu-accelerated" />
       
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 text-center">
-        <div className="border border-white/10 p-2 rounded-3xl backdrop-blur-sm bg-black/20">
-          <main className="relative border border-white/10 py-12 md:py-20 rounded-2xl overflow-hidden bg-black/40 shadow-2xl">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 text-center gpu-accelerated">
+        <div className="border border-white/10 p-2 rounded-3xl backdrop-blur-sm bg-black/20 gpu-accelerated">
+          <main className="relative border border-white/10 py-12 md:py-20 rounded-2xl bg-black/40 shadow-2xl gpu-accelerated">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
+              className="gpu-accelerated"
             >
               <h1 className="mb-6 text-white text-center text-4xl md:text-7xl font-black tracking-tighter leading-[0.9]">
                 Your next disruption <br className="md:hidden" /> is already in motion.
@@ -36,7 +37,7 @@ export default function Hero() {
 
               <div className="flex items-center justify-center gap-2 bg-white/5 w-fit mx-auto px-4 py-2 rounded-full border border-white/10">
                 <p className="text-[10px] sm:text-xs uppercase font-black tracking-widest text-white/80">
-                  🔥 47 companies are already on the waitlist to see their exposure first.
+                  🔥 39 companies are already on the waitlist to see their exposure first.
                 </p>
               </div>
             </motion.div>
@@ -44,5 +45,6 @@ export default function Hero() {
         </div>
       </div>
     </section>
+
   );
 }

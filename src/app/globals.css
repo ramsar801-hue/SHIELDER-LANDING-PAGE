@@ -22,14 +22,36 @@
   * {
     @apply border-white/10;
   }
+  
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground selection:bg-accent/30 selection:text-white;
+    position: relative;
+    overflow-x: hidden;
+    /* Enable momentum scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
   }
 }
 
 @layer utilities {
   .glass {
     @apply bg-black/60 backdrop-blur-xl border border-white/10;
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+  
+  .gpu-accelerated {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: transform;
   }
   
   .hide-scrollbar::-webkit-scrollbar {
@@ -56,4 +78,6 @@
 
 .animate-marquee {
   animation: marquee 30s linear infinite;
+  will-change: transform;
 }
+

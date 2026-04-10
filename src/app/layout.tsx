@@ -12,6 +12,15 @@ export const metadata: Metadata = {
   description: "Secure your shipments with AI-driven autonomous logistics optimization. Detect disruptions 18 days earlier and automate rerouting.",
 };
 
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: true,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
