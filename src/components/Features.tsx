@@ -6,7 +6,7 @@ import { Zap, ShieldCheck, Factory, TrendingUp, Search, RefreshCcw, Globe, Recei
 const features = [
   {
     title: "Carrier blackout detection",
-    desc: "Know in 15 minutes. Not 8 hours. ShieldRoute identifies when carrier GPS or EDI signals drop longer than expected.",
+    desc: "Know in 15 minutes. Not 8 hours. AegisRoute identifies when carrier GPS or EDI signals drop longer than expected.",
     icon: <Zap className="text-accent" size={24} />,
   },
   {
@@ -25,18 +25,18 @@ const features = [
     icon: <TrendingUp className="text-accent" size={24} />,
   },
   {
-    title: "Document error scanner",
-    desc: "Catch the HS code mistake before customs does. Automated verification of BOLs, invoices, and packing lists.",
+    title: "Document anomaly highlighter",
+    desc: "Catch the HS code mistake before customs does. Flags unusual values in BOLs, invoices, and packing lists.",
     icon: <Search className="text-accent" size={24} />,
   },
   {
-    title: "Auto-pilot re-routing",
-    desc: "Re-booked, rerouted, and customer notified while you were in a meeting. Fully autonomous handling of minor disruptions.",
+    title: "Executive War Room Alert",
+    desc: "Receive the exact re-route plan on your phone. Pre-written carrier instructions included. One tap to forward to dispatch. No autonomous execution.",
     icon: <RefreshCcw className="text-accent" size={24} />,
   },
   {
     title: "Global Disruption Cloak",
-    desc: "Monitors weather, geopolitics, and road blockages in real time. ShieldRoute overlays routes against live satellite data. Re-route proposed. Alternative locked in. Disaster avoided.",
+    desc: "Monitors weather, geopolitics, and road blockages in real time. AegisRoute overlays routes against live satellite data. Re-route proposed. Alternative locked in. Disaster avoided.",
     icon: <Globe className="text-accent" size={24} />,
   },
   {
@@ -45,8 +45,8 @@ const features = [
     icon: <Receipt className="text-accent" size={24} />,
   },
   {
-    title: "Backup Supplier Auto-Source",
-    desc: "The moment a primary supplier is flagged as unstable, ShieldRoute pings your pre-vetted backup list. Receive ranked quotes and availability within 15 minutes.",
+    title: "Supplier Risk Radar",
+    desc: "The moment a primary supplier is flagged as unstable, AegisRoute surfaces the signal. You choose who to contact. You maintain full control.",
     icon: <UserCheck className="text-accent" size={24} />,
   },
 ];

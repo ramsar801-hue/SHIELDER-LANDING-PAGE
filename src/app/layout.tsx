@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "AegisRoute | Autonomous Supply Chain Intelligence",
-  description: "Secure your shipments with AI-driven autonomous logistics optimization. Detect disruptions 18 days earlier and automate rerouting.",
+  description: "Secure your shipments with AI-driven logistics optimization. Detect disruptions 18 days earlier and surface rerouting plans.",
 };
 
 

@@ -31,7 +31,7 @@ export default function Pricing() {
       desc: "Most chosen by logistics teams",
       features: [
         "Unlimited active shipments",
-        "Auto-pilot autonomous re-routing",
+        "Command Center Proposals",
         "Supplier distress warnings",
         "Tariff & Duty impact alerts",
         "Real-time HS code scanner",
@@ -53,7 +53,7 @@ export default function Pricing() {
         "Whitelabel monitoring",
         "On-premise deployment option",
         "24/7 Phone & Slack support",
-        "SLA guarantee"
+        "Uptime guarantee"
       ],
       cta: "Book a pilot call",
       popular: false

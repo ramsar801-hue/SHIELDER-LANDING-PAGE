@@ -12,8 +12,8 @@ const AuroraPricing = () => {
     const plans = [
         {
             name: 'Starter',
-            price: { monthly: 1497, yearly: 1197 }, // 1197 is the monthly rate when billed annually
-            listPrice: 2000,
+            price: { monthly: 1197, yearly: 957 },
+            listPrice: 1500,
             description: 'per month · billed monthly',
             features: [
                 { text: '14-day pilot → $497 setup', included: true },
@@ -24,7 +24,7 @@ const AuroraPricing = () => {
                 { text: 'Shipment document error scanner', included: true },
                 { text: 'Freight invoice overcharge detector', included: true },
                 { text: 'Crisis communication system (email + WhatsApp)', included: true },
-                { text: 'No auto-pilot re-routing', included: false },
+                { text: 'No Command Center Proposals', included: false },
                 { text: 'No supplier distress warning', included: false },
                 { text: 'No tariff impact alerts', included: false },
                 { text: 'No CFO ROI report', included: false },
@@ -34,23 +34,22 @@ const AuroraPricing = () => {
         },
         {
             name: 'Growth',
-            price: { monthly: 3997, yearly: 3197 },
+            price: { monthly: 3197, yearly: 2557 },
             description: 'per month · billed monthly',
             badge: '⭐ Most operators choose this',
             features: [
                 { text: 'Everything in Starter', included: true },
                 { text: '14-day pilot → $497 setup', included: true },
                 { text: 'Up to 300 shipments monitored', included: true },
-                { text: 'Full auto-pilot re-routing — no human needed', included: true },
+                { text: 'Command Center Proposals — AI-generated re-route plan with one-click copy to dispatch (full human approval required)', included: true },
                 { text: 'Supplier financial distress early warning', included: true },
                 { text: 'Tariff and duty change impact alert', included: true },
                 { text: 'Inbound stock arrival failure predictor', included: true },
                 { text: 'Carrier performance scoring engine', included: true },
                 { text: 'Proactive delay notification to receivers', included: true },
                 { text: 'Monthly CFO-ready ROI report', included: true },
-                { text: 'No ERP integration', included: false },
-                { text: 'No cascade simulation', included: false },
-                { text: 'No white-label mode', included: false },
+                { text: 'Basic Ripple Effect View', included: true },
+                { text: 'No Ripple Effect View', included: false },
             ],
             cta: 'Start Growth plan ↗',
             isFeatured: true,
@@ -64,13 +63,13 @@ const AuroraPricing = () => {
                 { text: 'Everything in Growth', included: true },
                 { text: 'Unlimited shipments monitored', included: true },
                 { text: 'Full supply chain cascade simulation', included: true },
-                { text: 'Regulatory compliance pre-scanner', included: true },
-                { text: 'Bi-directional ERP and TMS integration', included: true },
+                { text: 'Document Anomaly Highlighter — flag unusual values in BOL/Packing List fields', included: true },
+                { text: 'CSV Sync Engine — connect via daily email report (zero IT firewall changes)', included: true },
                 { text: 'Carrier contract negotiation intelligence', included: true },
-                { text: 'White-label mode for 3PLs and forwarders', included: true },
-                { text: 'Critical cargo priority mode (pharma / cold chain)', included: true },
+                { text: 'Co-Branded Reporting — your logo alongside AegisRoute', included: true },
+                { text: 'Heat Map Priority Mode — highest $ exposure shipments surface to top', included: true },
                 { text: 'Board-level quarterly scorecard', included: true },
-                { text: 'Dedicated success manager + SLA', included: true },
+                { text: 'Founder\'s War Room — direct Slack/WhatsApp channel to the founder', included: true },
             ],
             cta: 'Book a pilot call ↗',
             isFeatured: false,
@@ -91,7 +90,7 @@ const AuroraPricing = () => {
             transition: {
                 delay: i * 0.15 + 0.3,
                 duration: 0.6,
-                ease: "easeInOut" as const,
+                ease: "easeInOut",
             },
         }),
     };
@@ -246,14 +245,14 @@ const AuroraPricing = () => {
                                 ))}
                             </ul>
 
-                            <a href="#waitlist" className={cn(
+                            <button className={cn(
                                 "w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn",
                                 plan.isFeatured 
                                     ? "bg-accent text-white hover:bg-white hover:text-black shadow-accent/20" 
                                     : "bg-white/5 text-gray-200 hover:bg-white/10 border border-white/10"
                             )}>
                                 <span>{plan.cta}</span>
-                            </a>
+                            </button>
                         </div>
                     </motion.div>
                 ))}

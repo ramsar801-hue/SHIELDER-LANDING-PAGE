@@ -4,7 +4,7 @@ import { Shield, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-950 pt-12 pb-16 md:pt-24 md:pb-32 border-t border-white/5 relative z-10 overflow-hidden">
+    <footer className="bg-gray-950 pt-24 pb-32 border-t border-white/5 relative z-10 overflow-hidden">
       {/* Aurora blur effect in footer */}
       <div className="absolute -bottom-24 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-accent/20 blur-[120px] rounded-full pointer-events-none" />
       
@@ -16,11 +16,11 @@ export default function Footer() {
                 <Shield className="text-accent" size={20} />
               </div>
               <span className="text-2xl font-black tracking-tighter text-white leading-none">
-                Aegis<span className="text-accent">Route</span>
+                AEGIS<span className="text-accent">ROUTE</span>
               </span>
             </div>
             <span className="text-sm text-gray-400 font-medium">
-              Autonomous supply chain intelligence for the next generation.
+              Enterprise-grade supply chain intelligence for the next generation.
             </span>
             <a
               href="mailto:auraintelligence007@gmail.com"
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-[10px] font-black uppercase tracking-[0.3em] text-gray-600 gap-4">
-          <span>&copy; 2026 AEGISROUTE. DESIGN IS EVERYTHING.</span>
+          <span>&copy; 2026 AEGISROUTE.</span>
           <div className="flex items-center gap-4">
             <span className="text-accent/50">ENGINE_v4.2.0</span>
             <span>SOC2_READY</span>

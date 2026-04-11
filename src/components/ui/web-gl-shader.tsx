@@ -67,8 +67,7 @@ export function WebGLShader({ className = "fixed top-0 left-0 w-full h-full bloc
     const initScene = () => {
       refs.scene = new THREE.Scene()
       refs.renderer = new THREE.WebGLRenderer({ canvas, alpha: true }) // Enabled alpha for better layering
-      const isMobile = window.innerWidth < 768
-      refs.renderer.setPixelRatio(isMobile ? 1.0 : window.devicePixelRatio)
+      refs.renderer.setPixelRatio(window.devicePixelRatio)
       refs.renderer.setClearColor(0x000000, 1)
 
       refs.camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, -1)

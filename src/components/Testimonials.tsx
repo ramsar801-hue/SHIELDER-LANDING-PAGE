@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 const testimonials = [
   {
+    quote: "A carrier went dark on a Thursday night. ShieldRoute had us rerouted and the customer notified before I even saw the alert. That shipment had a $6,800 penalty clause. We paid nothing.",
     author: "James M.",
     role: "Head of Logistics",
     company: "Mid-size Manufacturer",
@@ -13,7 +14,7 @@ const testimonials = [
     initials: "JM"
   },
   {
-    quote: "We almost lost our biggest supplier without warning. AegisRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.",
+    quote: "We almost lost our biggest supplier without warning. ShieldRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.",
     author: "Sarah L.",
     role: "VP Operations",
     company: "Food Distributor",
@@ -21,10 +22,10 @@ const testimonials = [
     initials: "SL"
   },
   {
-    quote: "The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. AegisRoute told us the same day. We renegotiated 4 of them.",
+    quote: "The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. ShieldRoute told us the same day. We renegotiated 4 of them.",
     author: "Ahmed K.",
     role: "COO",
-    company: "Pharmaceutical Importer",
+    company: "Medical Supply Chain",
     country: "UAE",
     initials: "AK"
   }
@@ -38,7 +39,7 @@ const stats = [
 
 export default function Testimonials() {
   return (
-    <section className="py-12 md:py-24 bg-background">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -46,8 +47,8 @@ export default function Testimonials() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
-            AegisRoute works while you sleep.
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+            From operations teams in our pilot.
           </h2>
         </motion.div>
 
@@ -111,7 +112,7 @@ function StatNumber({ value, prefix = "", suffix = "" }: { value: number | strin
     requestAnimationFrame(animate);
   }, [value]);
 
-  const formatted = Number(value) >= 1000000 
+  const formatted = value >= 1000000 
     ? (displayValue / 1000000).toFixed(1) 
     : displayValue % 1 === 0 ? displayValue.toFixed(0) : displayValue.toFixed(1);
 

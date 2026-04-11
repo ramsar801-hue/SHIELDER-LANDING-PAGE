@@ -48,12 +48,12 @@ export default function WaitlistForm() {
   };
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("https://aegisroute.com/join?ref=founding-44");
+    navigator.clipboard.writeText("https://shieldroute.com/join?ref=founding-44");
     // Could add a "Copied!" toast here
   };
 
   return (
-    <section id="waitlist" className="py-16 md:py-32 bg-background relative overflow-hidden border-t border-white/5">
+    <section id="waitlist" className="py-32 bg-background relative overflow-hidden border-t border-white/5">
       {/* Background Effect */}
       <div className="absolute inset-0 z-0 opacity-10" 
            style={{ backgroundImage: 'linear-gradient(to right, #333 1px, transparent 1px), linear-gradient(to bottom, #333 1px, transparent 1px)', backgroundSize: '80px 80px' }} />
@@ -65,11 +65,11 @@ export default function WaitlistForm() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-center mb-12"
+              className="text-center"
             >
               <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter">
                 Your next disruption is already forming. <br className="hidden md:block" />
-                <span className="text-accent underline decoration-white/20">AegisRoute stops the bleed.</span>
+                <span className="text-accent underline decoration-white/20">Join before it hits.</span>
               </h2>
               <p className="text-muted text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
                 Only 50 founding companies get priority onboarding and the 14-day pilot with the $497 setup fee completely waived. 39 spots are gone. <span className="text-danger font-bold">11 remain.</span> This is not a soft deadline. After 50, the pilot program is full. Founding pricing is no longer available.
@@ -82,7 +82,7 @@ export default function WaitlistForm() {
                     <input 
                       {...register("fullName", { required: true })}
                       placeholder="Alex Taylor"
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
                     />
                   </div>
                   <div className="space-y-2">
@@ -90,7 +90,7 @@ export default function WaitlistForm() {
                     <input 
                       {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
                       placeholder="alex@company.com"
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
                     />
                   </div>
                   <div className="space-y-2">
@@ -98,14 +98,14 @@ export default function WaitlistForm() {
                     <input 
                       {...register("companyName", { required: true })}
                       placeholder="ShipGlobal Inc."
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none"
                     />
                   </div>
                   <div className="space-y-2">
                     <label className="text-xs font-black uppercase tracking-widest text-muted">Role</label>
                     <select 
                       {...register("role", { required: true })}
-                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
+                      className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
                     >
                       <option value="">Select Role</option>
                       <option value="COO">COO</option>
@@ -122,7 +122,7 @@ export default function WaitlistForm() {
                   <label className="text-xs font-black uppercase tracking-widest text-muted">Monthly Shipment Volume</label>
                   <select 
                     {...register("volume", { required: true })}
-                    className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-5 md:py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
+                    className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none"
                   >
                     <option value="">Select Volume</option>
                     <option value="Under 50">Under 50</option>
@@ -147,7 +147,7 @@ export default function WaitlistForm() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   disabled={isSubmitting}
-                  className="w-full bg-accent hover:bg-accent/90 text-white font-black py-6 md:py-5 rounded-2xl text-xl shadow-xl shadow-accent/20 transition-all flex items-center justify-center space-x-3 disabled:opacity-50"
+                  className="w-full bg-accent hover:bg-accent/90 text-white font-black py-5 rounded-2xl text-xl shadow-xl shadow-accent/20 transition-all flex items-center justify-center space-x-3 disabled:opacity-50"
                 >
                   {isSubmitting ? (
                     <motion.div 

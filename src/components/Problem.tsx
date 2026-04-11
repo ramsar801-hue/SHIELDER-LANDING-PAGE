@@ -54,7 +54,7 @@ export default function Problem() {
   ];
 
   return (
-    <section id="problem" className="py-12 md:py-24 bg-black relative">
+    <section id="problem" className="py-24 bg-black relative">
       <div className="container mx-auto px-6">
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -64,7 +64,7 @@ export default function Problem() {
         >
             <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter text-white">
                 Supply chains are fragile. <br />
-                <span className="text-danger italic underline decoration-white/10">AegisRoute is your buffer.</span>
+                <span className="text-danger italic underline decoration-white/10">ShieldRoute is your buffer.</span>
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-medium">
                 Logistics managers lose 15% of their day to crises they didn't see coming. We fix that.
@@ -104,11 +104,11 @@ export default function Problem() {
           <div className="text-gray-400 uppercase tracking-[0.3em] font-black text-[10px] mb-4">
             Estimated global logistics losses in the last 24 hours
           </div>
-          <div className="text-4xl md:text-6xl lg:text-8xl font-black text-danger tracking-tighter tabular-nums">
+          <div className="text-6xl md:text-8xl font-black text-danger tracking-tighter tabular-nums">
             ${lossCount.toLocaleString()}
           </div>
           <div className="mt-6 text-gray-500 font-bold uppercase tracking-widest text-xs">
-            From preventable autonomous execution failures
+            From preventable logistical delivery failures
           </div>
         </motion.div>
       </div>

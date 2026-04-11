@@ -62,7 +62,7 @@ const steps = [
   {
     id: 3,
     title: "DECIDE",
-    desc: "When risk exceeds your threshold, AI generates a precise re-route proposal: which carrier, what it costs, what it saves, why.",
+    desc: "When risk exceeds your threshold, AI generates a precise Command Proposal: which carrier, what it costs, what it saves, why. You maintain full control.",
     icon: <Lightbulb size={24} />,
     color: "from-amber-500/20 to-transparent",
     mockup: (
@@ -81,8 +81,8 @@ const steps = [
   },
   {
     id: 4,
-    title: "EXECUTE",
-    desc: "One click to approve — or turn on Auto-Pilot and let it act while you sleep. Carrier booked. Customer notified. Record updated.",
+    title: "ACT",
+    desc: "One click to copy pre-written dispatch instructions to your TMS or email. We provide the intelligence. You execute.",
     icon: <Zap size={24} />,
     color: "from-emerald-500/20 to-transparent",
     mockup: (
@@ -97,7 +97,6 @@ const steps = [
         </div>
         <div>
           <div className="text-sm font-bold">Action Completed</div>
-          <div className="text-[10px] text-muted">Carrier booked via API. Client notified via Email.</div>
         </div>
       </div>
     )
@@ -123,11 +122,11 @@ export default function HowItWorks() {
   }, [activeStep]);
 
   return (
-    <section id="how-it-works" className="py-12 md:py-24 bg-background overflow-hidden">
+    <section id="how-it-works" className="py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight text-white">
-            AegisRoute works while you sleep.
+            ShieldRoute works while you sleep.
           </h2>
         </div>
 

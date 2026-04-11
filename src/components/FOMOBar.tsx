@@ -8,7 +8,7 @@ const activities = [
   "A freight forwarder in Dubai just joined the waitlist",
   "A manufacturer in Stuttgart just claimed a founding spot",
   "A food distributor in Manchester is on the waitlist",
-  "A pharma importer in London just joined waitlist",
+  "A medical supply chain manager in London just joined waitlist",
   "A 3PL in Singapore just secured a founding rate",
   "A distributor in Mumbai is on the waitlist",
   "An importer in Chicago just claimed a founding spot",
