@@ -1,8 +1,0 @@
-# ShieldRoute Verification Plan
-
-- [ ] Navigate to http://localhost:3000
-- [ ] Capture WebGL hero section
-- [ ] Capture Aurora pricing section
-- [ ] Scroll and verify Liquid buttons
-- [ ] Scroll and verify updated footer
-- [ ] Check for layout breaks

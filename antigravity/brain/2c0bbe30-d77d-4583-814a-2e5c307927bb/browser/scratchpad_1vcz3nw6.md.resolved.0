@@ -1,6 +1,0 @@
-# Task: Capture high-quality screenshot of http://localhost:3000
-
-## Checklist
-- [ ] Verify page http://localhost:3000 is loaded and looks premium/professional <!-- id: 0 -->
-- [ ] Take a full-page screenshot or high-quality viewport screenshot <!-- id: 1 -->
-- [ ] Return the path to the screenshot <!-- id: 2 -->

@@ -1,9 +1,0 @@
-# Task: Verify Pricing Section Updates
-
-- [x] Navigate to http://localhost:3000
-- [/] Scroll to the pricing section (partially done)
-- [ ] Verify Starter plan: $1,497
-- [ ] Verify Growth plan: $3,997
-- [ ] Verify Enterprise plan: $9,997
-- [ ] Check Growth plan star badge
-- [ ] Verify checkmarks and X marks

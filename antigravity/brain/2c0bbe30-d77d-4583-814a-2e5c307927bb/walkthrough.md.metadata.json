@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Successfully integrated Supabase into the waitlist form. Verified implementation via browser testing, identifying that the 'waitlist' table needs to be created in the Supabase dashboard.",
-  "updatedAt": "2026-04-09T12:18:55.150208600Z",
-  "version": "1"
-}
