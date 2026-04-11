@@ -108,7 +108,7 @@ export default function Problem() {
             ${lossCount.toLocaleString()}
           </div>
           <div className="mt-6 text-gray-500 font-bold uppercase tracking-widest text-xs">
-            From preventable logistical delivery failures
+            From preventable execution failures
           </div>
         </motion.div>
       </div>

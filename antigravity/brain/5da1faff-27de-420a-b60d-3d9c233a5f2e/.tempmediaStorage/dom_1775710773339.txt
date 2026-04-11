@@ -1,0 +1,38 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+[0] (432,34)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#how-it-works'>How it works />
+[1] (487,34)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#features'>Features />
+[2] (531,34)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#pricing'>Pricing />
+[3] (580,34)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#target'>Who it's for />
+[4] (820,34)<a class='hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20' href='#waitlist'>Join waitlist —
+27
+spots left />
+Email support
+[5] (272,129)<button class='jsx-d797c961bbc17ea6 w-full mt-auto py-4 text-sm font-black rounded-2xl transition-all shadow-xl bg-gray-800 text-gray-200 hover:bg-gray-700 shadow-black/10'>Choose Plan />
+Tariff impact alert
+CFO Report
+[6] (500,129)<button class='jsx-d797c961bbc17ea6 w-full mt-auto py-4 text-sm font-black rounded-2xl transition-all shadow-xl bg-accent text-white hover:bg-accent/90 shadow-accent/20'>Choose Plan />
+SLA Guarantee
+White-label
+[7] (728,129)<button class='jsx-d797c961bbc17ea6 w-full mt-auto py-4 text-sm font-black rounded-2xl transition-all shadow-xl bg-gray-800 text-gray-200 hover:bg-gray-700 shadow-black/10'>Choose Plan />
+Your next disruption is already forming.
+Join before it hits.
+50 founding companies get locked-in pricing, priority onboarding, and a dedicated success manager at no extra cost. 39 spots are gone.
+11 remain.
+This is not a soft deadline.
+[8] (313,860)<label class='text-xs font-black uppercase tracking-widest text-muted'>Full Name />
+[9] (393,902)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='Alex Taylor' />
+[10] (530,860)<label class='text-xs font-black uppercase tracking-widest text-muted'>Work Email />
+[11] (607,902)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='alex@company.com' />
+Company Name
+Role
+An importer in Chicago just claimed a founding spot
+—
+2 min ago
+
+</current_dom>

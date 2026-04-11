@@ -1,0 +1,34 @@
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+How it works
+Features
+Pricing
+Who it's for
+Join waitlist —
+11
+spots left
+Your next disruption is already forming.
+Join before it hits.
+50 founding companies get locked-in pricing, priority onboarding, and a dedicated success manager at no extra cost. 39 spots are gone.
+11 remain.
+This is not a soft deadline.
+[0] (313,480)<label class='text-xs font-black uppercase tracking-widest text-muted'>Full Name />
+[1] (393,523)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='Alex Taylor' />
+[2] (530,480)<label class='text-xs font-black uppercase tracking-widest text-muted'>Work Email />
+[3] (607,523)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='alex@company.com' />
+[4] (323,596)<label class='text-xs font-black uppercase tracking-widest text-muted'>Company Name />
+[5] (393,639)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='ShipGlobal Inc.' />
+[6] (516,596)<label class='text-xs font-black uppercase tracking-widest text-muted'>Role />
+[7] (607,639)<select class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none' />
+[8] (347,711)<label class='text-xs font-black uppercase tracking-widest text-muted'>Monthly Shipment Volume />
+[9] (500,754)<select class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none' />
+[10] (500,849)<button class='w-full bg-accent hover:bg-accent/90 text-white font-black py-5 rounded-2xl text-xl shadow-xl shadow-accent/20 transition-all flex items-center justify-center space-x-3 disabled:opacity-50'>Secure my founding spot />
+	Secure my founding spot
+No credit card required
+Unsubscribe anytime
+Your data is never shared
+SOC2 in progress
+A freight forwarder in Dubai just joined the waitlist
+—
+2 min ago

@@ -1,0 +1,40 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+[0] (433,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#how-it-works'>How it works />
+[1] (488,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#features'>Features />
+[2] (532,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#pricing'>Pricing />
+[3] (581,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#problem'>Who it's for />
+[4] (821,35)<a class='hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20' href='#waitlist'>Join waitlist —
+11
+spots left />
+No supplier distress warning
+No tariff impact alerts
+No CFO ROI report
+[5] (272,186)<button class='w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn bg-white/5 text-gray-200 hover:bg-white/10 border border-white/10'>Get started ↗ />
+	Get started ↗
+No ERP integration
+No cascade simulation
+No white-label mode
+[6] (500,188)<button class='w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn bg-accent text-white hover:bg-white hover:text-black shadow-accent/20'>Start Growth plan ↗ />
+	Start Growth plan ↗
+Board-level quarterly scorecard
+Dedicated success manager + SLA
+[7] (728,186)<button class='w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn bg-white/5 text-gray-200 hover:bg-white/10 border border-white/10'>Book a pilot call ↗ />
+	Book a pilot call ↗
+You're on the list! 🎉
+We'll contact you 48 hours before launch with your onboarding link.
+Share with a colleague to move up the queue.
+[8] (433,956)<button class='w-full md:w-auto flex items-center justify-center space-x-3 bg-[#0A66C2] px-8 py-4 rounded-xl font-bold shadow-xl shadow-black/10 transition-transform hover:-translate-y-1'>Share on LinkedIn />
+	Share on LinkedIn
+[9] (567,956)<button class='w-full md:w-auto flex items-center justify-center space-x-3 bg-white/5 border border-white/20 px-8 py-4 rounded-xl font-bold transition-all hover:bg-white/10'>Copy referral link />
+	Copy referral link
+A freight forwarder in Dubai just joined the waitlist
+—
+2 min ago
+
+</current_dom>

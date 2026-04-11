@@ -1,0 +1,10 @@
+# ShieldRoute Landing Page Review Checklist
+
+- [ ] Navigate to http://localhost:3000 (Done - already there)
+- [ ] Review Hero Section (Animations, Headlines, Dashboard Mockup)
+- [ ] Review Problem Section (Pain cards, Loss Counter)
+- [ ] Review "How it Works" Stepper (Interactive flow, UI mockups)
+- [ ] Review ROI Calculator (Sliders, dynamic updates)
+- [ ] Review FOMO & Social (Live strip, toast notifications)
+- [ ] Review Waitlist Form (Validation, confetti on success)
+- [ ] Report errors or visual summary

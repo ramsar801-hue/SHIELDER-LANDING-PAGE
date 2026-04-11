@@ -20,7 +20,7 @@ export default function Footer() {
               </span>
             </div>
             <span className="text-sm text-gray-400 font-medium">
-              Enterprise-grade supply chain intelligence for the next generation.
+              Supply chain command center for the next generation.
             </span>
             <a
               href="mailto:auraintelligence007@gmail.com"

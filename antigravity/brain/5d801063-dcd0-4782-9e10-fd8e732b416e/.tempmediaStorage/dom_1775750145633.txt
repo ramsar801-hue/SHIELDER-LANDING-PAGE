@@ -1,0 +1,61 @@
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+[0] (433,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#how-it-works'>How it works />
+[1] (488,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#features'>Features />
+[2] (532,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#pricing'>Pricing />
+[3] (581,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#problem'>Who it's for />
+[4] (821,35)<a class='hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20' href='#waitlist'>Join waitlist —
+11
+spots left />
+$
+1,497
+/mo
+Up to 75 shipments monitored
+72-hour disruption forecast
+Carrier blackout detection + backup trigger
+Contract penalty exposure tracker
+Shipment document error scanner
+Freight invoice overcharge detector
+Crisis communication system (email + WhatsApp)
+No auto-pilot re-routing
+No supplier distress warning
+No tariff impact alerts
+No CFO ROI report
+[5] (272,672)<button class='w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn bg-white/5 text-gray-200 hover:bg-white/10 border border-white/10'>Get started ↗ />
+	Get started ↗
+$
+3,997
+/mo
+Everything in Starter
+Up to 300 shipments monitored
+Full auto-pilot re-routing — no human needed
+Supplier financial distress early warning
+Tariff and duty change impact alert
+Inbound stock arrival failure predictor
+Carrier performance scoring engine
+Proactive delay notification to receivers
+Monthly CFO-ready ROI report
+No ERP integration
+No cascade simulation
+No white-label mode
+[6] (500,673)<button class='w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn bg-accent text-white hover:bg-white hover:text-black shadow-accent/20'>Start Growth plan ↗ />
+	Start Growth plan ↗
+$
+9,997
+/mo
+Everything in Growth
+Unlimited shipments monitored
+Full supply chain cascade simulation
+Regulatory compliance pre-scanner
+Bi-directional ERP and TMS integration
+Carrier contract negotiation intelligence
+White-label mode for 3PLs and forwarders
+Critical cargo priority mode (pharma / cold chain)
+Board-level quarterly scorecard
+Dedicated success manager + SLA
+[7] (728,672)<button class='w-full py-6 text-xs font-black rounded-3xl transition-all shadow-xl uppercase tracking-[0.2em] flex items-center justify-center gap-2 active:scale-95 group/btn bg-white/5 text-gray-200 hover:bg-white/10 border border-white/10'>Book a pilot call ↗ />
+	Book a pilot call ↗
+A food distributor in Manchester is on the waitlist
+—
+11 min ago

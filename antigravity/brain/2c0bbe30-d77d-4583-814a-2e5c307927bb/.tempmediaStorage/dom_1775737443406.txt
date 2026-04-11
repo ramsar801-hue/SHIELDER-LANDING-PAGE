@@ -1,0 +1,36 @@
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+How it works
+Features
+Pricing
+Who it's for
+Join waitlist —
+11
+spots left
+[0] (309,9)<label class='text-xs font-black uppercase tracking-widest text-muted'>Full Name />
+[1] (389,52)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='Alex Taylor' />
+[2] (526,9)<label class='text-xs font-black uppercase tracking-widest text-muted'>Work Email />
+[3] (603,52)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='alex@company.com' />
+[4] (319,124)<label class='text-xs font-black uppercase tracking-widest text-muted'>Company Name />
+[5] (389,167)<input class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-muted/50 focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none' placeholder='ShipGlobal Inc.' />
+[6] (512,124)<label class='text-xs font-black uppercase tracking-widest text-muted'>Role />
+[7] (603,167)<select class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none' />
+[8] (343,240)<label class='text-xs font-black uppercase tracking-widest text-muted'>Monthly Shipment Volume />
+[9] (496,283)<select class='w-full bg-black/50 border border-white/10 rounded-xl px-4 py-4 text-white focus:border-accent focus:ring-1 focus:ring-accent transition-all outline-none appearance-none' />
+Something went wrong. Please try again.
+[10] (496,462)<button class='w-full bg-accent hover:bg-accent/90 text-white font-black py-5 rounded-2xl text-xl shadow-xl shadow-accent/20 transition-all flex items-center justify-center space-x-3 disabled:opacity-50'>Secure my founding spot />
+	Secure my founding spot
+No credit card required
+Unsubscribe anytime
+Your data is never shared
+SOC2 in progress
+SHIELD
+ROUTE
+Autonomous supply chain intelligence for the next generation.
+[11] (755,903)<a class='text-xs font-black uppercase tracking-widest text-gray-400 hover:text-white transition-colors' href='#'>Privacy />
+[12] (810,903)<a class='text-xs font-black uppercase tracking-widest text-gray-400 hover:text-white transition-colors' href='#'>Terms />
+[13] (866,903)<a class='text-xs font-black uppercase tracking-widest text-gray-400 hover:text-white transition-colors' href='#'>Contact />
+A logistics director in Sydney joined the waitlist
+—
+7 min ago

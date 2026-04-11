@@ -1,0 +1,161 @@
+Skip to content
+Navigation Menu
+[0] (25,39)<a aria-label='Homepage' class='tmp-mr-lg-3 color-fg-inherit flex-order-2 js-prevent-focus-on-mobile-nav' href='/' />
+[1] (67,39)<button class='NavDropdown-module__button__PEHWX js-details-target'>Platform />
+[2] (118,39)<button class='NavDropdown-module__button__PEHWX js-details-target'>Solutions />
+[3] (172,39)<button class='NavDropdown-module__button__PEHWX js-details-target'>Resources />
+[4] (233,39)<button class='NavDropdown-module__button__PEHWX js-details-target'>Open Source />
+[5] (293,39)<button class='NavDropdown-module__button__PEHWX js-details-target'>Enterprise />
+[6] (338,39)<a class='NavLink-module__link__EG3d4 MarketingNavigation-module__navLink__hUomM' href='https://github.com/pricing' />
+	[7] (338,39)<span >Pricing />
+[8] (793,39)<button aria-label='Search or jump to…' class='header-search-button placeholder input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none' placeholder='Search or jump to...' />
+	[9] (719,39)<div  />
+	[10] (793,39)<span >Search or jump to... />
+	[11] (869,39)<div  />
+[12] (900,39)<a class='HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1' href='/login?return_to=https%3A%2F%2Fgithub.com%2Framsar801-hue%2FSHIELDER-LANDING-PAGE'>Sign in />
+[13] (942,39)<a class='HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1' href='/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=ramsar801-hue%2FSHIELDER-LANDING-PAGE'>Sign up />
+[14] (975,39)<button class='Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border' id='icon-button-ba654052-e544-427f-b815-0eaca7e2ba7b' />
+[15] (64,112)<a class='url fn' href='/ramsar801-hue'>ramsar801-hue />
+/
+[16] (169,112)<a href='/ramsar801-hue/SHIELDER-LANDING-PAGE'>SHIELDER-LANDING-PAGE />
+Public
+[17] (841,111)<a aria-label='You must be signed in to change notification settings' class='btn-sm btn' href='/login?return_to=%2Framsar801-hue%2FSHIELDER-LANDING-PAGE' id='repository-details-watch-button'>Notifications />
+[18] (901,111)<a class='btn-sm btn' href='/login?return_to=%2Framsar801-hue%2FSHIELDER-LANDING-PAGE' id='fork-button'>Fork />
+	[19] (915,111)<span >0 />
+[20] (957,111)<a aria-label='You must be signed in to star a repository' class='tooltipped tooltipped-sw btn-sm btn' href='/login?return_to=%2Framsar801-hue%2FSHIELDER-LANDING-PAGE' />
+	[21] (958,110)<span >Star />
+	[22] (971,111)<span >0 />
+[23] (35,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected' href='/ramsar801-hue/SHIELDER-LANDING-PAGE' id='code-tab' />
+	[24] (42,172)<span >Code />
+[25] (78,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/issues' id='issues-tab' />
+	[26] (85,172)<span >Issues />
+[27] (141,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/pulls' id='pull-requests-tab' />
+	[28] (140,172)<span >Pull requests />
+	[29] (171,172)<span >2 />
+[30] (207,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/actions' id='actions-tab' />
+	[31] (213,172)<span >Actions />
+[32] (257,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/projects' id='projects-tab' />
+	[33] (264,172)<span >Projects />
+[34] (328,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/security' id='security-and-quality-tab' />
+	[35] (334,172)<span >Security and quality />
+[36] (398,172)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/pulse' id='insights-tab' />
+	[37] (404,172)<span >Insights />
+ramsar801-hue/SHIELDER-LANDING-PAGE
+[38] (211,242)<button aria-label='main branch' class='prc-Button-ButtonBase-9n-Xk overview-ref-selector width-full RefSelectorAnchoredOverlay-module__RefSelectorOverlayBtn__a3WK3' id='ref-picker-repos-header-ref-selector' />
+	[39] (211,242)<span  />
+		[40] (204,242)<span  />
+			[41] (204,242)<div  />
+				[42] (194,242)<div  />
+				[43] (210,242)<div  />
+					[44] (210,242)<span >main />
+[45] (269,242)<a class='prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button___Uotu' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/branches' />
+	[46] (269,242)<span  />
+		[47] (275,242)<span  />
+			[48] (275,242)<span >Branches />
+				[49] (260,242)<strong >3 />
+[50] (315,242)<a class='prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button___Uotu' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/tags' />
+	[51] (315,242)<span  />
+		[52] (321,242)<span  />
+			[53] (321,242)<span >Tags />
+				[54] (314,242)<strong >0 />
+[55] (543,242)<span  />
+	[56] (499,242)<span  />
+	[57] (547,242)<input aria-label='Go to file' class='prc-components-Input-IwWrt' placeholder='Go to file' role='combobox' />
+[58] (627,242)<button class='prc-Button-ButtonBase-9n-Xk' id='_R_3idajal1d_' />
+	[59] (627,242)<span  />
+		[60] (627,242)<span >Code />
+Folders and files
+Latest commit
+[61] (198,306)<a class='prc-Link-Link-9ZwDx' href='/ramsar801-hue' />
+	[62] (196,307)<img  />
+[63] (229,306)<a aria-label='commits by ramsar801-hue' class='AuthorAvatar-module__authorHoverableLink__MHTT8 prc-Link-Link-9ZwDx' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commits?author=ramsar801-hue'>ramsar801-hue />
+[64] (356,306)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/8fa050ffcd641720e979938d3914404e45cc1820'>Update Enterprise price to ,997/mo and finalize targeted edits />
+[65] (466,306)<button class='prc-Button-ButtonBase-9n-Xk ChecksStatusBadge-module__ChecksStatusBadgeIconButton__rcQQ1 prc-Button-IconButton-fyge7' />
+[66] (540,306)<a aria-label='Commit 8fa050f' class='Link--secondary prc-Link-Link-9ZwDx' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/8fa050ffcd641720e979938d3914404e45cc1820'>8fa050f />
+·
+History
+[67] (623,306)<a class='prc-Button-ButtonBase-9n-Xk d-none d-lg-flex LinkButton-module__linkButton__nFnov flex-items-center fgColor-default' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commits/main/' />
+	[68] (623,306)<span  />
+		[69] (628,306)<span  />
+			[70] (628,305)<span >7 Commits />
+[71] (419,356)<tr  />
+	[72] (215,357)<a aria-label='public, (Directory)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/tree/main/public' title='public'>public />
+	[73] (447,357)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[74] (419,401)<tr  />
+	[75] (210,402)<a aria-label='src, (Directory)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/tree/main/src' title='src'>src />
+	[76] (478,402)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/8fa050ffcd641720e979938d3914404e45cc1820' title='Update Enterprise price to ,997/mo and finalize targeted edits'>Update Enterprise price to ,997/mo and finalize targeted edits />
+[77] (419,446)<tr  />
+	[78] (221,446)<a aria-label='.gitignore, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/.gitignore' title='.gitignore'>.gitignore />
+	[79] (489,446)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/0a2dc609ac13a09864e1fa33ef484db5f58d89f1' title='Fix TypeScript typing and animation bugs for Vercel production build'>Fix TypeScript typing and animation bugs for Vercel production build />
+[80] (419,490)<tr  />
+	[81] (225,491)<a aria-label='AGENTS.md, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/AGENTS.md' title='AGENTS.md'>AGENTS.md />
+	[82] (447,491)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[83] (419,535)<tr  />
+	[84] (225,535)<a aria-label='CLAUDE.md, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/CLAUDE.md' title='CLAUDE.md'>CLAUDE.md />
+	[85] (447,535)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[86] (419,579)<tr  />
+	[87] (226,580)<a aria-label='README.md, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/README.md' title='README.md'>README.md />
+	[88] (447,580)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[89] (419,624)<tr  />
+	[90] (231,625)<a aria-label='eslint.config.mjs, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/eslint.config.mjs' title='eslint.config.mjs'>eslint.config.mjs />
+	[91] (447,625)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[92] (419,669)<tr  />
+	[93] (227,669)<a aria-label='next.config.ts, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/next.config.ts' title='next.config.ts'>next.config.ts />
+	[94] (447,669)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[95] (419,713)<tr  />
+	[96] (234,714)<a aria-label='package-lock.json, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/package-lock.json' title='package-lock.json'>package-lock.json />
+	[97] (489,714)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/0a2dc609ac13a09864e1fa33ef484db5f58d89f1' title='Fix TypeScript typing and animation bugs for Vercel production build'>Fix TypeScript typing and animation bugs for Vercel production build />
+[98] (419,758)<tr  />
+	[99] (226,758)<a aria-label='package.json, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/package.json' title='package.json'>package.json />
+	[100] (489,758)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/0a2dc609ac13a09864e1fa33ef484db5f58d89f1' title='Fix TypeScript typing and animation bugs for Vercel production build'>Fix TypeScript typing and animation bugs for Vercel production build />
+[101] (419,803)<tr  />
+	[102] (234,803)<a aria-label='postcss.config.mjs, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/postcss.config.mjs' title='postcss.config.mjs'>postcss.config.mjs />
+	[103] (447,803)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[104] (419,847)<tr  />
+	[105] (226,848)<a aria-label='tsconfig.json, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/tsconfig.json' title='tsconfig.json'>tsconfig.json />
+	[106] (447,848)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/6ed470a3308f6f82ea20db9609aa4c67f1c69574' title='Initial commit of ShieldRoute landing page'>Initial commit of ShieldRoute landing page />
+[107] (419,892)<tr  />
+	[108] (222,892)<a aria-label='vercel.json, (File)' class='Link--primary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/blob/main/vercel.json' title='vercel.json'>vercel.json />
+	[109] (489,892)<a class='Link--secondary' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/commit/0a2dc609ac13a09864e1fa33ef484db5f58d89f1' title='Fix TypeScript typing and animation bugs for Vercel production build'>Fix TypeScript typing and animation bugs for Vercel production build />
+Repository files navigation
+[110] (213,960)<a class='prc-components-UnderlineItem-7fP-n' href='#' />
+	[111] (196,960)<span  />
+	[112] (219,960)<span >README />
+[113] (641,959)<button aria-label='Outline' class='prc-Button-ButtonBase-9n-Xk OverviewRepoFiles-module__ActionMenu_Button__OKDYV' id='_R_dkdajal1d_' />
+About
+[114] (740,279)<a class='text-bold' href='https://shielder-landing-page.vercel.app' role='link' title='https://shielder-landing-page.vercel.app'>shielder-landing-page.vercel.app />
+Resources
+[115] (695,319)<a class='Link--muted' href='#readme-ov-file'>Readme />
+[116] (694,351)<a class='Link Link--muted' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/activity' />
+	[117] (701,351)<span >Activity />
+Stars
+[118] (693,382)<a class='Link Link--muted' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/stargazers'>stars />
+	[119] (692,382)<strong >0 />
+Watchers
+[120] (700,414)<a class='Link Link--muted' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/watchers'>watching />
+	[121] (692,414)<strong >0 />
+Forks
+[122] (693,446)<a class='Link Link--muted' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/forks'>forks />
+	[123] (692,446)<strong >0 />
+[124] (703,477)<a class='Link--muted' href='/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Framsar801-hue%2FSHIELDER-LANDING-PAGE&report=ramsar801-hue+%28user%29'>Report repository />
+[125] (691,537)<a class='Link--primary no-underline Link' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/releases'>Releases />
+No releases published
+[126] (746,637)<a class='Link--primary no-underline Link d-flex flex-items-center' href='/users/ramsar801-hue/packages?repo_name=SHIELDER-LANDING-PAGE'>Packages />
+No packages published
+[127] (746,736)<a class='Link--primary no-underline Link d-flex flex-items-center' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/graphs/contributors'>Contributors />
+	[128] (731,736)<span >1 />
+[129] (683,783)<a class='mr-2' href='https://github.com/ramsar801-hue' />
+	[130] (683,783)<img  />
+[131] (740,783)<a class='Link--primary no-underline flex-self-center' href='https://github.com/ramsar801-hue' />
+	[132] (720,783)<strong >ramsar801-hue />
+	[133] (766,783)<span >DAN SMITH />
+Languages
+[134] (705,916)<a class='d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/search?l=typescript' />
+	[135] (702,916)<span >TypeScript />
+	[136] (727,916)<span >97.7% />
+[137] (765,916)<a class='d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/search?l=css' />
+	[138] (763,916)<span >CSS />
+	[139] (777,916)<span >1.7% />
+[140] (703,940)<a class='d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3' href='/ramsar801-hue/SHIELDER-LANDING-PAGE/search?l=javascript' />
+	[141] (702,940)<span >JavaScript />
+	[142] (724,940)<span >0.6% />

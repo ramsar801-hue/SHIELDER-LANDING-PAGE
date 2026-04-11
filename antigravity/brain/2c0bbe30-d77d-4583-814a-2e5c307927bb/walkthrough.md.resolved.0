@@ -1,0 +1,22 @@
+# ShieldRoute Landing Page Restored
+
+The **ShieldRoute** landing page has been successfully restored and is now running locally.
+
+## Project Details
+- **Location**: `C:\Users\PE Computer\.gemini\antigravity\scratch`
+- **Framework**: Next.js 16.2.3 with Tailwind CSS 4
+- **Local URL**: [http://localhost:3000](http://localhost:3000)
+
+## Site Preview
+The landing page features a premium dark theme with sophisticated animations and supply chain intelligence visuals.
+
+![ShieldRoute Hero Section](file:///C:/Users/PE%20Computer/.gemini/antigravity/brain/2c0bbe30-d77d-4583-814a-2e5c307927bb/hero_section_1775729476291.png)
+
+### Full Page Overview
+![ShieldRoute Full Page](file:///C:/Users/PE%20Computer/.gemini/antigravity/brain/2c0bbe30-d77d-4583-814a-2e5c307927bb/landing_page_full_1775729485317.png)
+
+## Verification
+- [x] Started dev server using `npm run dev`
+- [x] Verified local server is listening on port 3000
+- [x] Loaded the page in the browser
+- [x] Captured visual confirmation of the "premium" design

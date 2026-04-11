@@ -1,0 +1,4 @@
+- [x] Install `@supabase/supabase-js`
+- [x] Create `src/lib/supabaseClient.ts`
+- [x] Update `WaitlistForm.tsx` with Supabase logic
+- [x] Verify form submission in browser

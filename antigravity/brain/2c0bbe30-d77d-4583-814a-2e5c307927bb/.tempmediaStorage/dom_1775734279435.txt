@@ -1,0 +1,56 @@
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+[0] (433,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#how-it-works'>How it works />
+[1] (488,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#features'>Features />
+[2] (532,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#pricing'>Pricing />
+[3] (581,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#problem'>Who it's for />
+[4] (821,35)<a class='hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20' href='#waitlist'>Join waitlist —
+11
+spots left />
+$
+500
+$
+50,000
+Lock in your founding rate before this closes
+From operations teams in our pilot.
+"
+A carrier went dark on a Thursday night. ShieldRoute had us rerouted and the customer notified before I even saw the alert. That shipment had a $6,800 penalty clause. We paid nothing.
+"
+JM
+James M.
+Head of Logistics
+,
+Mid-size Manufacturer
+Germany
+"
+We almost lost our biggest supplier without warning. ShieldRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.
+"
+SL
+Sarah L.
+VP Operations
+,
+Food Distributor
+UK
+"
+The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. ShieldRoute told us the same day. We renegotiated 4 of them.
+"
+AK
+Ahmed K.
+COO
+,
+Pharmaceutical Importer
+UAE
+$
+2.4
+M
+$2.4M in penalties prevented across pilots
+94
+%
+94% avg on-time delivery rate
+3.2
+d
+3.2 days to first prevented disruption
+An importer in Chicago just claimed a founding spot
+—
+2 min ago

@@ -1,0 +1,69 @@
+{
+   "checksum": "8471036b8679aaa3f73c9e392ba137e1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13420181833190407",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13420183869463956",
+            "date_last_used": "0",
+            "guid": "f3d2726b-83bb-4bf4-bf61-be85ebcf7aab",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ShieldRoute | Autonomous Supply Chain Intelligence",
+            "type": "url",
+            "url": "http://localhost:3000/#waitlist"
+         }, {
+            "date_added": "13420188385883708",
+            "date_last_used": "0",
+            "guid": "f268a7e3-9952-4911-949d-39f66bf337d6",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ShieldRoute | Autonomous Supply Chain Intelligence",
+            "type": "url",
+            "url": "http://localhost:3000/#features"
+         }, {
+            "date_added": "13420203656765290",
+            "date_last_used": "0",
+            "guid": "46ae6992-3050-4e5e-a436-7cb836902abe",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ShieldRoute | Autonomous Supply Chain Intelligence",
+            "type": "url",
+            "url": "http://localhost:3000/"
+         } ],
+         "date_added": "13420181833190407",
+         "date_last_used": "0",
+         "date_modified": "13420203656765290",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13420181833190407",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

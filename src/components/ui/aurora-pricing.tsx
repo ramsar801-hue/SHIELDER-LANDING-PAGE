@@ -49,7 +49,7 @@ const AuroraPricing = () => {
                 { text: 'Proactive delay notification to receivers', included: true },
                 { text: 'Monthly CFO-ready ROI report', included: true },
                 { text: 'Basic Ripple Effect View', included: true },
-                { text: 'No Ripple Effect View', included: false },
+                { text: 'No CSV sync engine', included: false },
             ],
             cta: 'Start Growth plan ↗',
             isFeatured: true,

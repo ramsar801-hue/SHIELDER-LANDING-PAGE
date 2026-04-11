@@ -1,0 +1,73 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+[0] (433,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#how-it-works'>How it works />
+[1] (488,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#features'>Features />
+[2] (532,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#pricing'>Pricing />
+[3] (581,35)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#problem'>Who it's for />
+[4] (821,35)<a class='hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20' href='#waitlist'>Join waitlist —
+11
+spots left />
+10
+500
+[5] (297,93)<label class='text-sm font-bold text-white uppercase tracking-wider'>Disruption incidents per month />
+4
+incidents
+[6] (344,141)<input class='w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent' />
+1
+20
+[7] (285,246)<label class='text-sm font-bold text-white uppercase tracking-wider'>Average cost per incident />
+$
+8,000
+[8] (344,294)<input class='w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer accent-accent' />
+$
+500
+$
+50,000
+ShieldRoute Growth Plan
+$3,997/mo
+Annual ROI
+8.0
+×
+Your estimated monthly savings
+$
+28,003
+You break even if we prevent just
+1
+incident
+.
+[9] (656,361)<a class='block w-full bg-white text-accent py-4 rounded-xl text-center font-bold text-lg shadow-xl shadow-black/10' href='#waitlist'>Lock in your founding rate before this closes />
+From operations teams in our pilot.
+"
+A carrier went dark on a Thursday night. ShieldRoute had us rerouted and the customer notified before I even saw the alert. That shipment had a $6,800 penalty clause. We paid nothing.
+"
+JM
+James M.
+Head of Logistics
+,
+Mid-size Manufacturer
+"
+We almost lost our biggest supplier without warning. ShieldRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.
+"
+SL
+Sarah L.
+VP Operations
+,
+Food Distributor
+"
+The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. ShieldRoute told us the same day. We renegotiated 4 of them.
+"
+AK
+Ahmed K.
+COO
+,
+Pharmaceutical Importer
+A logistics director in Sydney joined the waitlist
+—
+7 min ago
+
+</current_dom>

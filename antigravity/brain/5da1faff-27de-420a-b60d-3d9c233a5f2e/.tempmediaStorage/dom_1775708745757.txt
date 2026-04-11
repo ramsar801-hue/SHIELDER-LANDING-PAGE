@@ -1,0 +1,46 @@
+SHIELD
+ROUTE
+Autonomous supply chain intelligence
+[0] (432,41)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#how-it-works'>How it works />
+[1] (486,41)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#features'>Features />
+[2] (530,41)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#pricing'>Pricing />
+[3] (579,41)<a class='text-sm font-medium text-muted hover:text-white transition-colors' href='#target'>Who it's for />
+[4] (820,41)<a class='hidden sm:flex items-center bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-bold transition-colors shadow-lg shadow-accent/20' href='#waitlist'>Join waitlist —
+47
+spots left />
+LIVE — 3 companies joined the waitlist in the last hour
+Your
+shipment
+is
+in
+danger
+right
+now.
+You
+just
+don't
+know
+it
+yet.
+ShieldRoute monitors every active shipment in real time — detecting carrier blackouts, port delays, customs traps, and supplier failures before they cost you $10,000. Then it acts. Automatically.
+[5] (264,623)<a class='group inline-flex items-center space-x-3 bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-accent/30' href='#waitlist' />
+	[6] (254,623)<span >Secure my founding spot — free for first 50 companies />
+No credit card. No commitment. 43 of 50 founding spots claimed.
+Protecting assets for
+3PLs
+FREIGHT FORWARDERS
+IMPORTERS
+DISTRIBUTORS
+PHARMA SUPPLY CHAINS
+MANUFACTURERS
+3PLs
+FREIGHT FORWARDERS
+IMPORTERS
+DISTRIBUTORS
+PHARMA SUPPLY CHAINS
+A freight forwarder in Dubai just joined the waitlist
+—
+2 min ago
+New Activity
+A food distributor in Manchester is on the waitlist
+Just now
