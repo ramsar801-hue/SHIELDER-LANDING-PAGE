@@ -22,7 +22,7 @@ const testimonials = [
     initials: "SL"
   },
   {
-    quote: "The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. ShieldRoute told us the same day. We renegotiated 4 of them.",
+    quote: "The tariff alert alone paid for 6 months. We had $340,000 in open POs when the duty rate changed. AegisRoute told us the same day. We renegotiated 4 of them.",
     author: "Ahmed K.",
     role: "COO",
     company: "Medical Supply Chain",

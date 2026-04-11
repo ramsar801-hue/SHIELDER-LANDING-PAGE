@@ -150,12 +150,13 @@ function AnimatedValue({ value, prefix = "", className = "" }: { value: number, 
   const [displayValue, setDisplayValue] = useState(value);
 
   useEffect(() => {
-    const controls = animate(displayValue, value, {
+    const controls = animate(0, value, {
       duration: 0.5,
       ease: "easeOut",
       onUpdate: (latest) => setDisplayValue(Math.floor(latest)),
     });
     return () => controls.stop();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value]);
 
   return (
