@@ -64,7 +64,7 @@ export default function AuroraPricing() {
                 { text: 'Unlimited shipments monitored', included: true },
                 { text: 'Full supply chain cascade simulation', included: true },
                 { text: 'Document Anomaly Highlighter — flag unusual values in BOL/Packing List fields', included: true },
-                { text: 'CSV Sync Engine — connect via daily email report (zero IT firewall changes)', included: true },
+                { text: 'CSV Sync Engine — connect via daily email report', included: true },
                 { text: 'Carrier contract negotiation intelligence', included: true },
                 { text: 'Co-Branded Reporting — your logo alongside AegisRoute', included: true },
                 { text: 'Heat Map Priority Mode — highest $ exposure shipments surface to top', included: true },
