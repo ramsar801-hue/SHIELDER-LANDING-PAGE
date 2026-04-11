@@ -64,7 +64,7 @@ export default function Problem() {
         >
             <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter text-white">
                 Supply chains are fragile. <br />
-                <span className="text-danger italic underline decoration-white/10">ShieldRoute is your buffer.</span>
+                <span className="text-danger italic underline decoration-white/10">AegisRoute is your buffer.</span>
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-medium">
                 Logistics managers lose 15% of their day to crises they didn't see coming. We fix that.

@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const testimonials = [
   {
-    quote: "A carrier went dark on a Thursday night. ShieldRoute had us rerouted and the customer notified before I even saw the alert. That shipment had a $6,800 penalty clause. We paid nothing.",
+    quote: "A carrier went dark on a Thursday night. AegisRoute had us rerouted and the customer notified before I even saw the alert. That shipment had a $6,800 penalty clause. We paid nothing.",
     author: "James M.",
     role: "Head of Logistics",
     company: "Mid-size Manufacturer",
@@ -14,7 +14,7 @@ const testimonials = [
     initials: "JM"
   },
   {
-    quote: "We almost lost our biggest supplier without warning. ShieldRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.",
+    quote: "We almost lost our biggest supplier without warning. AegisRoute flagged distress signals 18 days before they stopped responding to us. We had a backup supplier locked in within 48 hours.",
     author: "Sarah L.",
     role: "VP Operations",
     company: "Food Distributor",
