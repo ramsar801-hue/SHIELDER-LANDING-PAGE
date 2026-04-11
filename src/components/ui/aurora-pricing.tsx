@@ -56,7 +56,7 @@ const AuroraPricing = () => {
         },
         {
             name: 'Enterprise',
-            price: { monthly: 9997, yearly: 7997 },
+            price: { monthly: 7997, yearly: 6397 },
             description: 'per month · custom contract',
             subDescription: '14-day pilot available',
             features: [
