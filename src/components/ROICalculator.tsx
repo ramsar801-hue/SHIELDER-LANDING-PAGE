@@ -10,7 +10,7 @@ export default function ROICalculator() {
   const [costPerIncident, setCostPerIncident] = useState(8000);
 
   const monthlyLoss = useMemo(() => incidents * costPerIncident, [incidents, costPerIncident]);
-  const growthPlanCost = 3997;
+  const growthPlanCost = 3197;
   const monthlySavings = useMemo(() => Math.max(0, monthlyLoss - growthPlanCost), [monthlyLoss]);
   const breakEven = useMemo(() => Math.ceil(growthPlanCost / costPerIncident), [costPerIncident]);
   const roi = useMemo(() => (monthlyLoss / growthPlanCost).toFixed(1), [monthlyLoss]);
@@ -25,7 +25,7 @@ export default function ROICalculator() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
-            See exactly what ShieldRoute saves your business.
+            See exactly what AegisRoute saves your business.
           </h2>
         </motion.div>
 
@@ -68,15 +68,15 @@ export default function ROICalculator() {
               
               <div className="relative z-10 space-y-8">
                 <div>
-                  <div className="text-sm font-bold uppercase tracking-widest text-white/70 mb-2">Estimated monthly loss without ShieldRoute</div>
+                  <div className="text-sm font-bold uppercase tracking-widest text-white/70 mb-2">Estimated monthly loss without AegisRoute</div>
                   <AnimatedValue value={monthlyLoss} prefix="$" className="text-4xl md:text-5xl font-black" />
                 </div>
 
                 <div className="pt-8 border-t border-white/20">
                   <div className="flex justify-between items-end mb-6">
                     <div>
-                      <div className="text-xs font-bold uppercase tracking-widest text-white/70 mb-1">ShieldRoute Growth Plan</div>
-                      <div className="text-xl font-bold">$3,997/mo</div>
+                      <div className="text-xs font-bold uppercase tracking-widest text-white/70 mb-1">AegisRoute Growth Plan</div>
+                      <div className="text-xl font-bold">$3,197/mo</div>
                     </div>
                     <div className="text-right">
                       <div className="text-xs font-bold uppercase tracking-widest text-white/70 mb-1">Annual ROI</div>

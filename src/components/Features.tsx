@@ -16,7 +16,7 @@ const features = [
   },
   {
     title: "Supplier distress warning",
-    desc: "3 weeks notice before your supplier fails. We track financial health, regional labor news, and port-side output signals.",
+    desc: "18-day early warning before your supplier fails. We track financial health, regional labor news, and port-side output signals.",
     icon: <Factory className="text-accent" size={24} />,
   },
   {
@@ -36,7 +36,7 @@ const features = [
   },
   {
     title: "Global Disruption Cloak",
-    desc: "Monitors weather, geopolitics, and road blockages in real time. AegisRoute overlays routes against live satellite data. Re-route proposed. Alternative locked in. Disaster avoided.",
+    desc: "Monitors weather, geopolitics, and road blockages in real time. AegisRoute overlays routes against live satellite data. Re-route proposed. Alternative identified. Disaster avoided.",
     icon: <Globe className="text-accent" size={24} />,
   },
   {
