@@ -6,7 +6,7 @@ import { CheckCircle, Zap, X } from 'lucide-react';
 import { cn } from "@/lib/utils";
 import { WebGLShader } from "@/components/ui/web-gl-shader";
 
-const AuroraPricing = () => {
+export default function AuroraPricing() {
     const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
 
     const plans = [
@@ -259,6 +259,4 @@ const AuroraPricing = () => {
             </div>
         </section>
     );
-};
-
-export default AuroraPricing;
+}
