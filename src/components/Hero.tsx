@@ -12,7 +12,7 @@ export default function Hero() {
       
       <div className="relative z-10 w-full max-w-5xl mx-auto px-6 text-center gpu-accelerated">
         <div className="border border-white/10 p-2 rounded-3xl backdrop-blur-sm bg-black/20 gpu-accelerated">
-          <main className="relative border border-white/10 py-12 md:py-20 rounded-2xl bg-black/40 shadow-2xl gpu-accelerated">
+          <div className="relative border border-white/10 py-12 md:py-20 rounded-2xl bg-black/40 shadow-2xl gpu-accelerated">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -41,7 +41,7 @@ export default function Hero() {
                 </p>
               </div>
             </motion.div>
-          </main>
+          </div>
         </div>
       </div>
     </section>
