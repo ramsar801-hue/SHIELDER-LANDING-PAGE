@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { motion, animate, useMotionValue, useTransform } from "framer-motion";
+import { motion, animate } from "framer-motion";
 import { useEffect } from "react";
 
 export default function ROICalculator() {
