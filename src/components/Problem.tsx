@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AlertTriangle, Factory, FileText, Ship, Receipt, Anchor } from "lucide-react";
 import { useEffect, useState, useRef } from "react";
 
 export default function Problem() {
@@ -16,40 +15,19 @@ export default function Problem() {
 
   const cards = [
     {
-      icon: <AlertTriangle className="text-danger" size={28} />,
-      title: "Silent carrier blackout",
-      body: "Your carrier went silent 6 hours ago. You found out when your customer called. Penalty for late delivery: $3,200. Total damage: $11,600. For one shipment.",
-      exposure: "EXPOSURE: $11,600 DAMAGE",
+      title: "📊 Spreadsheet Jockey",
+      body: "Mornings wasted in Excel hell.",
+      solvedBy: "Morning Brief Bot",
     },
     {
-      icon: <Factory className="text-danger" size={28} />,
-      title: "Supplier distress event",
-      body: "Your supplier is failing. Production halt: 19 days. Lost revenue: $180,000. Finance finds out at month end when the margins are already destroyed.",
-      exposure: "EXPOSURE: $180,000 REVENUE",
+      title: "🧾 Return Fraud Survivor",
+      body: "Empty boxes. Worn dresses. Refund rage.",
+      solvedBy: "Refund Leakage Lock",
     },
     {
-      icon: <FileText className="text-danger" size={28} />,
-      title: "Tariff change shock",
-      body: "The tariff changed last Tuesday. The PO you signed now costs 23% more to land. Your margin is gone. Total landed cost failure.",
-      exposure: "EXPOSURE: 23% MARGIN LOSS",
-    },
-    {
-      icon: <Ship className="text-danger" size={28} />,
-      title: "Rolled shipment crisis",
-      body: "⚠️ YOUR CRITICAL SHIPMENT JUST GOT 'ROLLED' TO NEXT WEEK'S VESSEL. The carrier didn't tell you. 7 days of idle production. Labor costs still running.",
-      exposure: "EXPOSURE: $42k LABOR + $28k REVENUE",
-    },
-    {
-      icon: <Receipt className="text-danger" size={28} />,
-      title: "Surprise freight invoices",
-      body: "⚠️ YOUR FREIGHT INVOICE ARRIVED WITH $4,700 IN SURPRISE CHARGES. Detention fees. Chassis splits. Fuel adjustments nobody approved. AP team just pays it.",
-      exposure: "MONTHLY LEAK: $9,400 — $14,100",
-    },
-    {
-      icon: <Anchor className="text-danger" size={28} />,
-      title: "Port labor slowdown",
-      body: "⚠️ A PORT LABOR SLOWDOWN STARTED 4 HOURS AGO. YOUR VESSEL IS 90 MINS OUT. Each day costs $1,200 in demurrage. Your penalty clause activates on Day 3.",
-      exposure: "EXPOSURE: $8,600 + UNKNOWN",
+      title: "📦 Stockout Insomniac",
+      body: "3 AM. \"Is the warehouse out of stock?\"",
+      solvedBy: "Predictive Rebalancing",
     },
   ];
 
@@ -82,13 +60,12 @@ export default function Problem() {
               className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden"
             >
               <div className="absolute top-0 left-0 w-1 h-full bg-danger opacity-20 group-hover:opacity-100 transition-opacity" />
-              <div className="mb-6 bg-danger/10 w-fit p-3 rounded-2xl">{card.icon}</div>
-              <h3 className="text-xl font-black mb-4 text-white uppercase tracking-tight">{card.title}</h3>
+              <h3 className="text-xl font-black mb-4 text-white tracking-tight">{card.title}</h3>
               <p className="text-gray-400 leading-relaxed mb-6 text-sm font-medium">{card.body}</p>
               
               <div className="pt-4 border-t border-white/5">
-                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-danger">
-                  {card.exposure}
+                <span className="text-[11px] font-black uppercase tracking-[0.1em] text-accent">
+                  Solved by: {card.solvedBy}
                 </span>
               </div>
             </motion.div>

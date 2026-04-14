@@ -1,54 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Zap, ShieldCheck, Factory, TrendingUp, Search, RefreshCcw, Globe, Receipt, UserCheck } from "lucide-react";
 
 const features = [
   {
-    title: "Carrier blackout detection",
-    desc: "Know in 15 minutes. Not 8 hours. AegisRoute identifies when carrier GPS or EDI signals drop longer than expected.",
-    icon: <Zap className="text-accent" size={24} />,
+    title: "📋 Morning Brief Bot",
+    triggerText: "\"Yesterday: $5.2K sales. 32 orders. 1 low stock alert.\"",
+    bullets: [
+      "WhatsApp at 8 AM. No login.",
+      "Wardrobing. Weight traps. Serial match.",
+      "Zero paperwork. OAuth only."
+    ]
   },
   {
-    title: "Contract penalty shield",
-    desc: "See your $4,200 penalty risk before Thursday's deadline. AI maps live delays against your specific contract terms.",
-    icon: <ShieldCheck className="text-accent" size={24} />,
+    title: "🧾 Refund Leakage Lock",
+    triggerText: "\"$2.1K fake returns blocked this month.\"",
+    bullets: [
+      "Wardrobing. Weight traps. Serial match.",
+      "Zero paperwork. Policy enforcement.",
+      "API read-only."
+    ]
   },
   {
-    title: "Supplier distress warning",
-    desc: "18-day early warning before your supplier fails. We track financial health, regional labor news, and port-side output signals.",
-    icon: <Factory className="text-accent" size={24} />,
-  },
-  {
-    title: "Tariff impact alert",
-    desc: "Know the same day a duty change destroys your margin. Real-time monitoring of global trade policy and HS codes.",
-    icon: <TrendingUp className="text-accent" size={24} />,
-  },
-  {
-    title: "Document anomaly highlighter",
-    desc: "Catch the HS code mistake before customs does. Flags unusual values in BOLs, invoices, and packing lists.",
-    icon: <Search className="text-accent" size={24} />,
-  },
-  {
-    title: "Executive War Room Alert",
-    desc: "Receive the exact re-route plan on your phone. Pre-written carrier instructions included. One tap to forward to dispatch. No autonomous execution.",
-    icon: <RefreshCcw className="text-accent" size={24} />,
-  },
-  {
-    title: "Global Disruption Cloak",
-    desc: "Monitors weather, geopolitics, and road blockages in real time. AegisRoute overlays routes against live satellite data. Re-route proposed. Alternative identified. Disaster avoided.",
-    icon: <Globe className="text-accent" size={24} />,
-  },
-  {
-    title: "Freight Invoice Vigilante",
-    desc: "Audits every line of freight bills against contracted rates. Flags detention charges and fuel surcharges before AP pays. Average client recovers $4,700/month in overcharges.",
-    icon: <Receipt className="text-accent" size={24} />,
-  },
-  {
-    title: "Supplier Risk Radar",
-    desc: "The moment a primary supplier is flagged as unstable, AegisRoute surfaces the signal. You choose who to contact. You maintain full control.",
-    icon: <UserCheck className="text-accent" size={24} />,
-  },
+    title: "📈 Predictive Rebalancing",
+    triggerText: "\"$2.5K stockout loss prevented.\"",
+    bullets: [
+      "Auto-transfer stock. Keep Buy Box.",
+      "Zero paperwork. API read-only.",
+      "Works across US, UK, CA, AU."
+    ]
+  }
 ];
 
 export default function Features() {
@@ -78,11 +59,17 @@ export default function Features() {
               whileHover={{ y: -8, transition: { duration: 0.2 } }}
               className="p-8 bg-white/5 border border-white/5 rounded-3xl group hover:bg-white/10 transition-colors"
             >
-              <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                {feature.icon}
-              </div>
+              {/* Remove icon div since emoji is in title */}
               <h3 className="text-xl font-bold mb-4">{feature.title}</h3>
-              <p className="text-muted leading-relaxed text-sm lg:text-base">{feature.desc}</p>
+              <p className="text-xl md:text-2xl font-bold mb-6 text-accent leading-tight">{feature.triggerText}</p>
+              <ul className="space-y-3">
+                {feature.bullets.map((bullet, idx) => (
+                  <li key={idx} className="flex items-start">
+                    <span className="text-accent mr-2 mt-1">✓</span>
+                    <span className="text-muted leading-relaxed text-sm lg:text-base">{bullet}</span>
+                  </li>
+                ))}
+              </ul>
             </motion.div>
           ))}
         </div>
