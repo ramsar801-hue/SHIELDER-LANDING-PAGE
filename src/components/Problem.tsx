@@ -78,9 +78,9 @@ export default function Problem() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-20"
+            className="text-center mb-12 md:mb-20"
         >
-            <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter text-white">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mb-4 md:mb-6 tracking-tighter text-white">
                 Supply chains are fragile. <br />
                 <span className="text-danger italic underline decoration-white/10">AegisRoute is your buffer.</span>
             </h2>
@@ -97,7 +97,7 @@ export default function Problem() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden"
+              className="bg-white/5 border border-white/5 p-6 md:p-8 rounded-2xl md:rounded-[32px] hover:bg-white/10 transition-all group relative overflow-hidden"
             >
               <div className="absolute top-0 left-0 w-1 h-full bg-danger opacity-20 group-hover:opacity-100 transition-opacity" />
               <div className="mb-6 bg-danger/10 w-fit p-3 rounded-2xl">{card.icon}</div>
@@ -117,12 +117,12 @@ export default function Problem() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-20 p-10 bg-danger/5 border border-danger/20 rounded-[40px] text-center max-w-4xl mx-auto backdrop-blur-sm"
+          className="mt-12 md:mt-20 p-6 sm:p-8 md:p-10 bg-danger/5 border border-danger/20 rounded-3xl md:rounded-[40px] text-center max-w-4xl mx-auto backdrop-blur-sm"
         >
-          <div className="text-gray-400 uppercase tracking-[0.3em] font-black text-[10px] mb-4">
+          <div className="text-gray-400 uppercase tracking-[0.2em] sm:tracking-[0.3em] font-black text-[9px] sm:text-[10px] mb-4">
             Estimated global logistics losses in the last 24 hours
           </div>
-          <div className="text-6xl md:text-8xl font-black text-danger tracking-tighter tabular-nums">
+          <div className="text-4xl sm:text-6xl md:text-8xl font-black text-danger tracking-tighter tabular-nums break-words">
             ${lossCount.toLocaleString()}
           </div>
           <div className="mt-6 text-gray-500 font-bold uppercase tracking-widest text-xs">

@@ -24,14 +24,14 @@ export default function ROICalculator() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-tight">
             See exactly what AegisRoute saves your business.
           </h2>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Sliders Area */}
-          <div className="space-y-12 bg-white/5 p-8 md:p-12 rounded-3xl border border-white/5 shadow-xl">
+          <div className="space-y-8 md:space-y-12 bg-white/5 p-6 sm:p-8 md:p-12 rounded-3xl border border-white/5 shadow-xl">
             <SliderField 
               label="Monthly active shipments"
               value={shipments}
@@ -61,32 +61,32 @@ export default function ROICalculator() {
 
           {/* Results Area */}
           <div className="relative">
-            <div className="p-8 md:p-12 bg-accent rounded-3xl text-white shadow-2xl overflow-hidden relative group">
+            <div className="p-6 sm:p-8 md:p-12 bg-accent rounded-3xl text-white shadow-2xl overflow-hidden relative group">
               {/* Pattern Overlay */}
               <div className="absolute inset-0 opacity-10 pointer-events-none" 
                    style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
               
               <div className="relative z-10 space-y-8">
                 <div>
-                  <div className="text-sm font-bold uppercase tracking-widest text-white/70 mb-2">Estimated monthly loss without AegisRoute</div>
-                  <AnimatedValue value={monthlyLoss} prefix="$" className="text-4xl md:text-5xl font-black" />
+                  <div className="text-xs sm:text-sm font-bold uppercase tracking-widest text-white/70 mb-2">Estimated monthly loss without AegisRoute</div>
+                  <AnimatedValue value={monthlyLoss} prefix="$" className="text-3xl sm:text-4xl md:text-5xl font-black break-words" />
                 </div>
 
-                <div className="pt-8 border-t border-white/20">
-                  <div className="flex justify-between items-end mb-6">
+                <div className="pt-6 md:pt-8 border-t border-white/20">
+                  <div className="flex justify-between items-end mb-6 gap-4">
                     <div>
-                      <div className="text-xs font-bold uppercase tracking-widest text-white/70 mb-1">AegisRoute Growth Plan</div>
-                      <div className="text-xl font-bold">$3,197/mo</div>
+                      <div className="text-[10px] sm:text-xs font-bold uppercase tracking-widest text-white/70 mb-1 leading-tight">AegisRoute Growth Plan</div>
+                      <div className="text-lg sm:text-xl font-bold">$3,197/mo</div>
                     </div>
                     <div className="text-right">
-                      <div className="text-xs font-bold uppercase tracking-widest text-white/70 mb-1">Annual ROI</div>
-                      <div className="text-xl font-bold">{roi}×</div>
+                      <div className="text-[10px] sm:text-xs font-bold uppercase tracking-widest text-white/70 mb-1 leading-tight">Annual ROI</div>
+                      <div className="text-lg sm:text-xl font-bold">{roi}×</div>
                     </div>
                   </div>
 
-                  <div className="bg-white/10 p-6 rounded-2xl border border-white/20">
-                    <div className="text-sm font-bold uppercase tracking-widest text-white/70 mb-2">Your estimated monthly savings</div>
-                    <AnimatedValue value={monthlySavings} prefix="$" className="text-5xl md:text-6xl font-black text-white" />
+                  <div className="bg-white/10 p-5 sm:p-6 rounded-2xl border border-white/20">
+                    <div className="text-xs sm:text-sm font-bold uppercase tracking-widest text-white/70 mb-2">Your estimated monthly savings</div>
+                    <AnimatedValue value={monthlySavings} prefix="$" className="text-4xl md:text-5xl lg:text-6xl font-black text-white break-words tabular-nums" />
                   </div>
 
                   <div className="mt-6 text-center text-sm font-medium">
@@ -123,9 +123,9 @@ function SliderField({ label, value, onChange, min, max, step = 1, prefix = "", 
 }) {
   return (
     <div className="space-y-4">
-      <div className="flex justify-between items-center">
-        <label className="text-sm font-bold text-white uppercase tracking-wider">{label}</label>
-        <span className="text-xl font-mono font-bold text-accent">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-4">
+        <label className="text-xs sm:text-sm font-bold text-white uppercase tracking-wider">{label}</label>
+        <span className="text-lg sm:text-xl font-mono font-bold text-accent">
           {prefix}{value.toLocaleString()}{suffix && ` ${suffix}`}
         </span>
       </div>

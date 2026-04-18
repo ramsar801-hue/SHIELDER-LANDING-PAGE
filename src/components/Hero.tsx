@@ -17,9 +17,9 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="gpu-accelerated"
+              className="gpu-accelerated px-2 sm:px-0"
             >
-              <h1 className="mb-6 text-white text-center text-4xl md:text-7xl font-black tracking-tighter leading-[0.9]">
+              <h1 className="mb-6 text-white text-center text-3xl sm:text-4xl md:text-7xl font-black tracking-tighter leading-[0.9]">
                 Your next disruption <br className="md:hidden" /> is already in motion.
               </h1>
               <p className="text-white/60 px-6 text-center text-sm md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
@@ -35,8 +35,8 @@ export default function Hero() {
                 </a>
               </div> 
 
-              <div className="flex items-center justify-center gap-2 bg-white/5 w-fit mx-auto px-4 py-2 rounded-full border border-white/10">
-                <p className="text-[10px] sm:text-xs uppercase font-black tracking-widest text-white/80">
+              <div className="flex items-center justify-center gap-2 bg-white/5 w-fit mx-auto px-4 py-2 rounded-full border border-white/10 break-words max-w-full text-center">
+                <p className="text-[9px] sm:text-[10px] md:text-xs uppercase font-black tracking-widest text-white/80">
                   🔥 39 companies are already on the waitlist to see their exposure first.
                 </p>
               </div>

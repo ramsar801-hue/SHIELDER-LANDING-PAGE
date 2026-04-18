@@ -137,7 +137,7 @@ export default function HowItWorks() {
               <button
                 key={step.id}
                 onClick={() => { setActiveStep(i); setProgress(0); }}
-                className={`w-full text-left p-6 rounded-2xl transition-all relative overflow-hidden group border ${
+                className={`w-full text-left p-4 md:p-6 rounded-2xl transition-all relative overflow-hidden group border ${
                   activeStep === i 
                   ? "bg-white/5 border-white/10" 
                   : "bg-transparent border-transparent hover:bg-white/5"
@@ -153,8 +153,8 @@ export default function HowItWorks() {
                   </div>
                 )}
 
-                <div className="flex items-start space-x-6">
-                  <div className={`p-3 rounded-xl ${activeStep === i ? "bg-accent text-white" : "bg-white/5 text-muted group-hover:text-white transition-colors"}`}>
+                <div className="flex items-start space-x-4 md:space-x-6">
+                  <div className={`p-3 rounded-xl flex-shrink-0 ${activeStep === i ? "bg-accent text-white" : "bg-white/5 text-muted group-hover:text-white transition-colors"}`}>
                     {step.icon}
                   </div>
                   <div>

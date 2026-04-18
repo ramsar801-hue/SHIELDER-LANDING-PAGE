@@ -47,7 +47,7 @@ export default function Testimonials() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-tight">
             From operations teams in our pilot.
           </h2>
         </motion.div>
@@ -60,7 +60,7 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="p-8 bg-white/5 border border-white/5 rounded-3xl relative"
+              className="p-6 md:p-8 bg-white/5 border border-white/5 rounded-2xl md:rounded-3xl relative"
             >
               <Quote className="absolute top-8 right-8 text-accent/20" size={40} />
               <p className="text-white/80 leading-relaxed mb-8 relative z-10">&quot;{t.quote}&quot;</p>
@@ -79,7 +79,7 @@ export default function Testimonials() {
         </div>
 
         {/* Stats Bar */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 bg-white/5 rounded-[40px] p-12 border border-white/5 shadow-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 bg-white/5 rounded-3xl md:rounded-[40px] p-6 sm:p-8 md:p-12 border border-white/5 shadow-2xl">
           {stats.map((stat, i) => (
             <div key={i} className="text-center space-y-4">
               <StatNumber value={stat.value} prefix={stat.prefix} suffix={stat.suffix} />
@@ -119,7 +119,7 @@ function StatNumber({ value, prefix = "", suffix = "" }: { value: number | strin
     : displayValue % 1 === 0 ? displayValue.toFixed(0) : displayValue.toFixed(1);
 
   return (
-    <div className="text-4xl md:text-5xl font-black text-white">
+    <div className="text-3xl sm:text-4xl md:text-5xl font-black text-white">
       {prefix}{formatted}{suffix}
     </div>
   );

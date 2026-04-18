@@ -104,7 +104,7 @@ export default function Features() {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-tight">
             Everything your logistics team wishes existed.
           </h2>
         </motion.div>
@@ -118,7 +118,7 @@ export default function Features() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
               whileHover={{ y: -8, transition: { duration: 0.2 } }}
-              className="p-8 bg-white/5 border border-white/5 rounded-3xl group hover:bg-white/10 transition-colors"
+              className="flex flex-col p-6 md:p-8 bg-white/5 border border-white/5 rounded-2xl md:rounded-3xl group hover:bg-white/10 transition-colors"
             >
               <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
                 {feature.icon}
@@ -134,7 +134,7 @@ export default function Features() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-20 p-8 glass rounded-3xl border-accent/20 text-center"
+          className="mt-12 md:mt-20 p-6 md:p-8 glass rounded-2xl md:rounded-3xl border-accent/20 text-center"
         >
           <p className="text-lg md:text-xl font-medium text-white/90">
             Works for manufacturers, freight forwarders, importers, distributors, 3PLs, and any business that moves physical goods.

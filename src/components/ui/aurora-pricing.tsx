@@ -96,7 +96,7 @@ export default function AuroraPricing() {
     };
 
     return (
-        <section id="pricing" className="relative w-full py-32 bg-black flex flex-col items-center justify-center p-8 overflow-hidden border-y border-white/5">
+        <section id="pricing" className="relative w-full py-16 md:py-32 bg-black flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 overflow-hidden border-y border-white/5">
             {/* HER0 BACKGROUND INTEGRATION - LOCALIZED */}
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <WebGLShader className="absolute inset-0 w-full h-full block -z-10" />
@@ -120,7 +120,7 @@ export default function AuroraPricing() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
-                    className="text-5xl md:text-7xl font-black tracking-tight mb-6 text-white"
+                    className="text-3xl sm:text-4xl md:text-7xl font-black tracking-tight mb-6 text-white text-center"
                 >
                     Predictable Logistics Cost
                 </motion.h2>
@@ -131,7 +131,7 @@ export default function AuroraPricing() {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.4 }}
-                    className="flex items-center justify-center space-x-6 mb-8 bg-white/5 p-4 rounded-3xl border border-white/10 backdrop-blur-xl"
+                    className="flex items-center justify-center space-x-4 md:space-x-6 mb-8 bg-white/5 p-3 sm:p-4 rounded-2xl md:rounded-3xl border border-white/10 backdrop-blur-xl"
                 >
                     <span className={cn("text-lg font-bold transition-all", billingCycle === 'monthly' ? 'text-white' : 'text-gray-500')}>Monthly</span>
                     <div 
@@ -175,7 +175,7 @@ export default function AuroraPricing() {
                         viewport={{ once: true }}
                         whileHover={{ y: -10, scale: 1.01 }}
                         className={cn(
-                            "relative p-8 rounded-[40px] border border-white/10 overflow-hidden group flex flex-col transition-all duration-500",
+                            "relative p-6 md:p-8 rounded-3xl md:rounded-[40px] border border-white/10 overflow-hidden group flex flex-col transition-all duration-500",
                             plan.isFeatured ? 'bg-black/40 shadow-2xl shadow-accent/20 border-accent/40 ring-1 ring-accent/20' : 'bg-black/20 backdrop-blur-3xl'
                         )}
                     >
@@ -190,7 +190,7 @@ export default function AuroraPricing() {
                             
                             <div className="flex flex-col mt-4">
                                 <div className="flex items-baseline gap-2">
-                                    <span className="text-6xl font-black text-white tracking-tighter">
+                                    <span className="text-4xl sm:text-5xl md:text-6xl font-black text-white tracking-tighter">
                                         <AnimatePresence mode="wait">
                                             <motion.span
                                                 key={billingCycle}
